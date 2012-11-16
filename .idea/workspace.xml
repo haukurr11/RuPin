@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/summary$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/summary$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/summary$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/summary$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/summary.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/summary.template.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/signup/summary.scala.html" afterPath="$PROJECT_DIR$/app/views/signup/summary.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
     </list>
     <ignored path="RuPin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,7 +118,7 @@
       <file leaf-file-name="tester.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="3" selection-start="529" selection-end="529" vertical-scroll-proportion="0.6097561">
+            <state line="16" column="4" selection-start="530" selection-end="530" vertical-scroll-proportion="0.6097561">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -682,7 +672,11 @@
       <created>1353091219805</created>
       <updated>1353091219805</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Pusha stuffinu">
+      <created>1353097572001</created>
+      <updated>1353097572001</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -936,7 +930,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="529" selection-end="529" vertical-scroll-proportion="0.6097561">
+        <state line="16" column="4" selection-start="530" selection-end="530" vertical-scroll-proportion="0.6097561">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
