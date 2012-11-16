@@ -15,7 +15,11 @@ public class tester {
     ApplicationContext ctx = new FileSystemXmlApplicationContext("/conf/ApplicationContext.xml");
     UserDataGateway userDataGateway = (UserDataGateway)ctx.getBean("userDataGateway");
     List<User> users = userDataGateway.getUsersFollowedBy("knutur");
+    List<User> users2 = userDataGateway.getFollowersOf("lallijohns");
      for(User user: users)
+         System.out.println(user);
+    System.out.println("-----");
+     for(User user: users2)
          System.out.println(user);
   }
 

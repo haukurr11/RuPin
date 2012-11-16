@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" />
     </list>
     <ignored path="RuPin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,7 +119,7 @@
       <file leaf-file-name="tester.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="530" selection-end="530" vertical-scroll-proportion="0.6097561">
+            <state line="17" column="4" selection-start="599" selection-end="599" vertical-scroll-proportion="0.5487805">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -676,7 +677,11 @@
       <created>1353097572001</created>
       <updated>1353097572001</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Pusha stuffinu">
+      <created>1353098530564</created>
+      <updated>1353098530564</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -930,7 +935,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="530" selection-end="530" vertical-scroll-proportion="0.6097561">
+        <state line="17" column="4" selection-start="599" selection-end="599" vertical-scroll-proportion="0.5487805">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
