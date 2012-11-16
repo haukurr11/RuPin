@@ -8,4 +8,6 @@ public interface UserDataGateway extends RuDataAccess
   public int add(User user);
   public User getUserByUsername(String username);
   public User getUserByID(int id);
+//  public List<User> getFollowersOf(String username);
+ // public List<User> getFollowersOf(String username);
 }
