@@ -82,7 +82,7 @@
       <file leaf-file-name="UserDataGateway.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="220" selection-end="220" vertical-scroll-proportion="0.37433156">
+            <state line="13" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.64171124">
               <folding />
             </state>
           </provider>
@@ -279,7 +279,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="project.structure.side.proportion" value="0.14005603" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -515,7 +515,11 @@
       <created>1353090279347</created>
       <updated>1353090279347</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Pusha stuffinu">
+      <created>1353090321435</created>
+      <updated>1353090321435</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -749,7 +753,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="220" selection-end="220" vertical-scroll-proportion="0.37433156">
+        <state line="13" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.64171124">
           <folding />
         </state>
       </provider>
