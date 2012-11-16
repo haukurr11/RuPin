@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" />
     </list>
     <ignored path="RuPin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -508,7 +507,11 @@
       <created>1353090212456</created>
       <updated>1353090212456</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Pusha stuffinu">
+      <created>1353090252711</created>
+      <updated>1353090252711</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
