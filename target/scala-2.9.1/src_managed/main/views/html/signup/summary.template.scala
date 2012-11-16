@@ -30,13 +30,11 @@ object summary extends BaseScalaTemplate[play.api.templates.Html,Format[play.api
 Seq[Any](format.raw/*1.38*/("""
 
 """),_display_(Seq[Any](/*3.2*/main(Html("Account created!"), nav = "signup")/*3.48*/ {_display_(Seq[Any](format.raw/*3.50*/("""
-    
     <h2>Your account:</h2>
-    <p>Name: """),_display_(Seq[Any](/*6.15*/user/*6.19*/.getName())),format.raw/*6.29*/("""</p>
-    <p>Username: """),_display_(Seq[Any](/*7.19*/user/*7.23*/.getUsername())),format.raw/*7.37*/("""</p>
-    <p>Email: """),_display_(Seq[Any](/*8.16*/user/*8.20*/.getEmail())),format.raw/*8.31*/("""</p>
-
-    Go here to: <a href="routes.Session.loginForm">Login</a>
+    <p>Name: """),_display_(Seq[Any](/*5.15*/user/*5.19*/.getName())),format.raw/*5.29*/("""</p>
+    <p>Username: """),_display_(Seq[Any](/*6.19*/user/*6.23*/.getUsername())),format.raw/*6.37*/("""</p>
+    <p>Email: """),_display_(Seq[Any](/*7.16*/user/*7.20*/.getEmail())),format.raw/*7.31*/("""</p>
+    Go here to: <a href=""""),_display_(Seq[Any](/*8.27*/routes/*8.33*/.Session.login)),format.raw/*8.47*/("""">Login</a>
 """)))})))}
     }
     
@@ -49,11 +47,11 @@ Seq[Any](format.raw/*1.38*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Nov 16 06:05:02 GMT 2012
+                    DATE: Fri Nov 16 18:48:49 GMT 2012
                     SOURCE: /home/haukur/skil4_honn/RuPin/app/views/signup/summary.scala.html
-                    HASH: 74c1e5aaaded3538b93c8f3c4ec36de1766f0cb5
-                    MATRIX: 786->1|899->37|936->40|990->86|1029->88|1111->135|1123->139|1154->149|1212->172|1224->176|1259->190|1314->210|1326->214|1358->225
-                    LINES: 27->1|30->1|32->3|32->3|32->3|35->6|35->6|35->6|36->7|36->7|36->7|37->8|37->8|37->8
+                    HASH: 2243cb4700175317a26e7be752fd4fe3d5c68867
+                    MATRIX: 786->1|899->37|936->40|990->86|1029->88|1106->130|1118->134|1149->144|1207->167|1219->171|1254->185|1309->205|1321->209|1353->220|1419->251|1433->257|1468->271
+                    LINES: 27->1|30->1|32->3|32->3|32->3|34->5|34->5|34->5|35->6|35->6|35->6|36->7|36->7|36->7|37->8|37->8|37->8
                     -- GENERATED --
                 */
             

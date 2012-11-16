@@ -69,4 +69,43 @@ public class UserData extends RuData implements UserDataGateway
                 "select * from users where id="+id, new UserRowMapper());
         return user;
     }
+
+   public List<User> getFollowersOf(String username)
+  {
+    Collection<String> users;
+    JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
+
+    List<User> followers;
+    try
+    {
+      followers = (List<User>)jdbcTemplate.query(
+              "select ru_users.* from ru_users,ru_followers where ru_followers.following='" + username + "' and ru_followers.username=ru_users.username"
+              , new UserRowMapper());
+    }
+    catch (EmptyResultDataAccessException erdaex)
+    {
+      return null;
+    }
+    return followers;
+  }
+
+
+    @Override
+    public List<User> getUsersFollowedBy(String username) {
+    Collection<String> users;
+    JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
+    List<User> followers;
+    try
+    {
+      followers = (List<User>)jdbcTemplate.query(
+              "select ru_users.* from ru_users,ru_followers where ru_followers.username='" + username + "' and ru_followers.following=ru_users.username"
+              , new UserRowMapper());
+    }
+    catch (EmptyResultDataAccessException erdaex)
+    {
+      return null;
+    }
+    return followers;
+    }
+
 }
