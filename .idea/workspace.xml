@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" />
     </list>
     <ignored path="RuPin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceData.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserServiceData.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="35" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.85365856">
+            <state line="61" column="35" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tester.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tester.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="18" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
+            <state line="26" column="18" selection-start="990" selection-end="990" vertical-scroll-proportion="0.79268295">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -694,7 +687,11 @@
       <created>1353098734692</created>
       <updated>1353098734692</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Pusha stuffinu">
+      <created>1353174697657</created>
+      <updated>1353174697657</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -919,15 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="60" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
@@ -953,8 +941,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="35" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.85365856">
+        <state line="61" column="35" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="18" selection-start="990" selection-end="990" vertical-scroll-proportion="0.79268295">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
