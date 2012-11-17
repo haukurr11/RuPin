@@ -16,11 +16,15 @@ public class tester {
     UserDataGateway userDataGateway = (UserDataGateway)ctx.getBean("userDataGateway");
     List<User> users = userDataGateway.getUsersFollowedBy("knutur");
     List<User> users2 = userDataGateway.getFollowersOf("lallijohns");
-     for(User user: users)
-         System.out.println(user);
+    User user1 = userDataGateway.getUserByUsername("haukurr11");
+    User user2 = userDataGateway.getUserByUsername("knutur");
+    System.out.println();
+    for(User user: users)
+        System.out.println(user);
     System.out.println("-----");
-     for(User user: users2)
-         System.out.println(user);
+    for(User user: users2)
+        System.out.println(user);
+    userDataGateway.stopFollowing("haukurr11","knutur");
   }
 
 }

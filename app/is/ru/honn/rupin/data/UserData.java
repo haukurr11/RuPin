@@ -43,6 +43,35 @@ public class UserData extends RuData implements UserDataGateway
     return returnKey;
   }
 
+  public void addFollower(String username, String following) {
+    SimpleJdbcInsert insert =
+        new SimpleJdbcInsert(getDataSource())
+            .withTableName("ru_followers");
+
+    Map<String, Object> parameters = new HashMap<String, Object>(3);
+    parameters.put("isFollowing", 1);
+    parameters.put("username", username);
+    parameters.put("following", following);
+
+    int returnKey;
+
+    try
+    {
+      insert.execute(parameters);
+    }
+    catch(DataIntegrityViolationException divex)
+    {
+      JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
+        jdbcTemplate.update("UPDATE ru_followers SET isFollowing=1 where username='" +
+                             username + "' AND following='" + following + "'");
+    }
+  }
+  public void stopFollowing(String username, String following)
+  {
+   JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
+   jdbcTemplate.update("UPDATE ru_followers SET isFollowing=0 where username='" +
+                        username + "' AND following='" + following + "'");
+  }
   public User getUserByUsername(String username)
   {
     Collection<String> users;

@@ -4,6 +4,8 @@ import is.ru.honn.rupin.data.UserDataGateway;
 import is.ru.honn.rupin.domain.User;
 import is.ruframework.data.RuDuplicateDataException;
 
+import java.util.List;
+
 public class UserServiceData implements UserService
 {
   private UserDataGateway userDataGateway;
@@ -39,10 +41,24 @@ public class UserServiceData implements UserService
     return userDataGateway.getUserByUsername(username);
   }
 
+    @Override
+    public List<User> getFollowers(String username) {
+        return userDataGateway.getFollowersOf(username);
+    }
 
+    @Override
+    public List<User> getUsersFollowedBy(String username) {
+        return userDataGateway.getUsersFollowedBy(username);
+    }
 
     public void setUserDataGateway(UserDataGateway userDataGateway)
   {
     this.userDataGateway = userDataGateway;
   }
+   public void AddFollower(String username, String following) {
+      userDataGateway.addFollower(username,following);
+   }
+   public void StopFollowing(String username, String following) {
+      userDataGateway.stopFollowing(username,following);
+   }
 }

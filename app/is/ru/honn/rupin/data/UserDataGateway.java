@@ -12,4 +12,6 @@ public interface UserDataGateway extends RuDataAccess
   public User getUserByID(int id);
   public List<User> getFollowersOf(String username);
   public List<User> getUsersFollowedBy(String username);
+  public void addFollower(String username, String following);
+  public void stopFollowing(String username, String following);
 }

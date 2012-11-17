@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" />
     </list>
     <ignored path="RuPin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,17 +71,10 @@
       <file leaf-file-name="UserData.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="22" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PinServiceData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="2" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="68" column="16" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1577#1593#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,43 +82,70 @@
       <file leaf-file-name="PinService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+            <state line="16" column="16" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+            <state line="15" column="60" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignUp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/SignUp.java">
+      <file leaf-file-name="UserNotFoundException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserNotFoundException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
+            <state line="3" column="13" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuPinController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/RuPinController.java">
+      <file leaf-file-name="UsernameExistsException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UsernameExistsException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="24" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tester.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserServiceData.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="35" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.85365856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDataGateway.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="62" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRowMapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserRowMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tester.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="599" selection-end="599" vertical-scroll-proportion="0.5487805">
+            <state line="26" column="18" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,31 +153,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PinData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java">
+      <file leaf-file-name="AbstractJdbcInsert.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/spring-jdbc.jar!/org/springframework/jdbc/core/simple/AbstractJdbcInsert.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="32" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/ApplicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-0.3125">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDataGateway.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="37" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+            <state line="96" column="0" selection-start="5330" selection-end="5330" vertical-scroll-proportion="-7.8">
               <folding />
             </state>
           </provider>
@@ -175,22 +181,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/testclass.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/FollowerRowMapper.java" />
         <option value="$PROJECT_DIR$/app/views/board/viewboard.html" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" />
         <option value="$PROJECT_DIR$/app/views/board/viewboard.scala.html" />
         <option value="$PROJECT_DIR$/app/viewmodels/IndexModel.java" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/.idea/libraries/cglib_cglib_nodep_2_1_3_test.xml" />
         <option value="$PROJECT_DIR$/app/views/signup/summary.scala.html" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
+        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
+        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/FollowerExistsException.java" />
+        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" />
+        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" />
+        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" />
+        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" />
       </list>
     </option>
   </component>
@@ -684,7 +690,11 @@
       <created>1353098727110</created>
       <updated>1353098727110</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Pusha stuffinu">
+      <created>1353098734692</created>
+      <updated>1353098734692</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -830,56 +840,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/cglib_cglib_nodep_2_1_3_test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/signup/summary.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="229" selection-end="229" vertical-scroll-proportion="-5.3846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="59" selection-start="758" selection-end="758" vertical-scroll-proportion="0.86153847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserRowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/ApplicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-0.3125">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="37" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-jdbc.jar!/org/springframework/jdbc/support/JdbcAccessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.73103446">
@@ -915,33 +875,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="22" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="2" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="95" column="0" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2331#2338#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+        <state line="16" column="16" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-jdbc.jar!/org/springframework/jdbc/core/simple/AbstractJdbcInsert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="5330" selection-end="5330" vertical-scroll-proportion="-7.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UsernameExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="599" selection-end="599" vertical-scroll-proportion="0.5487805">
+        <state line="26" column="18" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="60" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="16" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1577#1593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="62" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="35" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.85365856">
+          <folding />
         </state>
       </provider>
     </entry>

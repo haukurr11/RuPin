@@ -8,6 +8,7 @@ import is.ru.honn.rupin.domain.Pin;
 import is.ru.honn.rupin.domain.User;
 import org.springframework.dao.DataAccessException;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PinServiceData implements PinService
@@ -83,4 +84,14 @@ public class PinServiceData implements PinService
     List<Pin> pins = pinDataGateway.getPinsOnBoard(username, boardname);
     return pins;
   }
+
+    @Override
+    public List<Board> getFollowedBoards(String username) {
+        List<Board> boards = new ArrayList<Board>();
+        List<User> followingUsers = userDataGateway.getUsersFollowedBy(username);
+        for(User user : followingUsers)
+            boards.addAll(getBoards(user.getUsername()));
+        return boards;
+    }
+
 }

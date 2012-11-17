@@ -15,4 +15,5 @@ public interface PinService
                         String link, String description)
     throws BoardNotFoundException;
   public List<Pin> getPinsOnBoard(String username, String boardname);
+  public List<Board> getFollowedBoards(String username);
 }
