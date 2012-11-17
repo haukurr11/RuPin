@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinRowMapper.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinRowMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/board/viewboard.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/board/viewboard.template.scala" />
     </list>
     <ignored path="RuPin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -751,7 +745,11 @@
       <created>1353178021968</created>
       <updated>1353178021968</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Pusha stuffinu">
+      <created>1353179604259</created>
+      <updated>1353179604259</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -795,7 +793,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27549466" sideWeight="0.38235295" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38235295" sideWeight="0.89041096" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38235295" sideWeight="0.89041096" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34269664" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
