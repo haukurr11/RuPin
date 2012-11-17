@@ -1,38 +1,6 @@
-2012-11-16 19:23:40,782 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
+2012-11-17 18:21:52,033 - [INFO] - from play in main 
+Listening for HTTP on port 9000...
+
+2012-11-17 18:21:56,008 - [INFO] - from play in play-akka.actor.default-dispatcher-3 
 Application started (Dev)
-
-2012-11-16 19:23:40,866 - [ERROR] - from application in play-akka.actor.actions-dispatcher-12 
-
-
-! @6cc399g8j - Internal server error, for request [GET /] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[IllegalArgumentException: Property 'dataSource' is required]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.IllegalArgumentException: Property 'dataSource' is required
-	at org.springframework.jdbc.support.JdbcAccessor.afterPropertiesSet(JdbcAccessor.java:134) ~[spring-jdbc.jar:3.1.0.RELEASE]
-	at org.springframework.jdbc.core.JdbcTemplate.<init>(JdbcTemplate.java:165) ~[spring-jdbc.jar:3.1.0.RELEASE]
-	at is.ru.honn.rupin.data.UserData.getFollowersOf(UserData.java:76) ~[classes/:na]
-	at controllers.Application.index(Application.java:21) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:52) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:52) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
 

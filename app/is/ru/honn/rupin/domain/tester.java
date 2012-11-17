@@ -1,5 +1,6 @@
 package is.ru.honn.rupin.domain;
 
+import is.ru.honn.rupin.data.PinDataGateway;
 import is.ru.honn.rupin.data.UserDataGateway;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
@@ -14,6 +15,7 @@ public class tester {
   {
     ApplicationContext ctx = new FileSystemXmlApplicationContext("/conf/ApplicationContext.xml");
     UserDataGateway userDataGateway = (UserDataGateway)ctx.getBean("userDataGateway");
+    PinDataGateway pinDataGateway = (PinDataGateway)ctx.getBean("pinDataGateway");
     List<User> users = userDataGateway.getUsersFollowedBy("knutur");
     List<User> users2 = userDataGateway.getFollowersOf("lallijohns");
     User user1 = userDataGateway.getUserByUsername("haukurr11");
@@ -24,7 +26,8 @@ public class tester {
     System.out.println("-----");
     for(User user: users2)
         System.out.println(user);
-    userDataGateway.stopFollowing("haukurr11","knutur");
+    List<Pin> list = pinDataGateway.getPinsOnBoard("Inspiration","knutur");
+    System.out.print(list.get(0));
   }
 
 }

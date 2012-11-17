@@ -39,7 +39,9 @@ public class PinServiceData implements PinService
   @Override
   public Board getBoard(String username, String boardname)
   {
-    return boardDataGateway.getBoard(username, boardname);
+    Board board = boardDataGateway.getBoard(username, boardname);
+    board.setPins(getPinsOnBoard(username,boardname));
+    return board;
   }
 
   @Override

@@ -1,6 +1,6 @@
 // @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:6d18298271bd0e2fdced0e2f22ac0a89a5e0fed2
-// @DATE:Fri Nov 16 06:05:01 GMT 2012
+// @HASH:40407affdaf1c235e1bdb67495289f9be69e8c9f
+// @DATE:Sat Nov 17 18:17:10 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -41,7 +41,15 @@ val controllers_Session_authenticate5 = Route("POST", PathPattern(List(StaticPar
 // @LINE:20
 val controllers_Session_logout6 = Route("GET", PathPattern(List(StaticPart("/logout"))))
                     
-def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""))
+
+// @LINE:24
+val controllers_BoardController_viewBoard7 = Route("GET", PathPattern(List(StaticPart("/board/viewboard/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
+                    
+
+// @LINE:25
+val controllers_Session_authenticate8 = Route("POST", PathPattern(List(StaticPart("/login"))))
+                    
+def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/viewboard/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""POST""","""/login""","""controllers.Session.authenticate()"""))
              
     
 def routes:PartialFunction[RequestHeader,Handler] = {        
@@ -98,6 +106,22 @@ case controllers_Session_authenticate5(params) => {
 case controllers_Session_logout6(params) => {
    call { 
         invokeHandler(_root_.controllers.Session.logout(), HandlerDef(this, "controllers.Session", "logout", Nil))
+   }
+}
+                    
+
+// @LINE:24
+case controllers_BoardController_viewBoard7(params) => {
+   call(params.fromPath[String]("username", None), params.fromPath[String]("boardname", None)) { (username, boardname) =>
+        invokeHandler(_root_.controllers.BoardController.viewBoard(username, boardname), HandlerDef(this, "controllers.BoardController", "viewBoard", Seq(classOf[String], classOf[String])))
+   }
+}
+                    
+
+// @LINE:25
+case controllers_Session_authenticate8(params) => {
+   call { 
+        invokeHandler(_root_.controllers.Session.authenticate(), HandlerDef(this, "controllers.Session", "authenticate", Nil))
    }
 }
                     

@@ -1,8 +1,12 @@
-    @(stuff: viewmodels.IndexModel)
-    @main(Html("RuPin")) {
+@(stuff: is.ru.honn.rupin.domain.Board)
+@main(Html("RuPin")) {
 
-    <h2>Welcome! @stuff.getUser().getUsername()</h2>
-    <p>
-        This is a test!
-    </p>
+ @stuff.getName()
+
+@for( pin <- stuff.getPins() ) {
+    @pin.toString()
+}
+<p>
+      This is a test!
+</p>
     }
