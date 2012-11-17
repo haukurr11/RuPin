@@ -1,12 +1,15 @@
 @(stuff: is.ru.honn.rupin.domain.Board)
 @main(Html("RuPin")) {
 
- @stuff.getName()
+ <h2>@stuff.getName()</h2>
 
 @for( pin <- stuff.getPins() ) {
-    @pin.toString()
+    <div class="pin">
+        <a href="@pin.getLink()">
+        <img src="@pin.getImage()" alt="Pin image"/>
+        </a>
+        <div class="desc">@pin.getDescription()</div>
+    </div>
+
 }
-<p>
-      This is a test!
-</p>
     }
