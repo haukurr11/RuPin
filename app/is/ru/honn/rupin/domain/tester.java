@@ -2,6 +2,7 @@ package is.ru.honn.rupin.domain;
 
 import is.ru.honn.rupin.data.PinDataGateway;
 import is.ru.honn.rupin.data.UserDataGateway;
+import is.ru.honn.rupin.service.PinService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
@@ -26,8 +27,11 @@ public class tester {
     System.out.println("-----");
     for(User user: users2)
         System.out.println(user);
-    List<Pin> list = pinDataGateway.getPinsOnBoard("Inspiration","knutur");
-    System.out.print(list.get(0));
+    PinService pinService = (PinService)ctx.getBean("pinService");
+    Board board = pinService.getBoard("knutur", "Inspiration");
+    System.out.println(board.getPins().size());
+    for(Pin pin : board.getPins())
+        System.out.println(pin.getLink());
   }
 
 }

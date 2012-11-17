@@ -11,9 +11,10 @@ public class PinRowMapper implements RowMapper
   @Override
   public Object mapRow(ResultSet resultSet, int i) throws SQLException
   {
-    Pin pin = new Pin(resultSet.getString(1),     // Description
-                      resultSet.getString(2),     // name
-                      resultSet.getString(3)) ;   // category
+    Pin pin = new Pin(resultSet.getString(2),     // Description
+                      resultSet.getString(1),     // link
+                      resultSet.getString(3)     // image
+                      ) ;   // username
     return pin;
   }
 }

@@ -50,7 +50,7 @@ Seq[Any](format.raw/*1.40*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Nov 17 18:19:48 GMT 2012
+                    DATE: Sat Nov 17 18:48:54 GMT 2012
                     SOURCE: /home/haukur/skil4_honn/RuPin/app/views/board/viewboard.scala.html
                     HASH: f70cda8eef0a41c55487d96da0158a89a1673e09
                     MATRIX: 788->1|903->39|939->41|966->60|1005->62|1043->66|1055->71|1086->81|1123->84|1167->113|1206->115|1246->121|1256->124|1288->135|1320->137

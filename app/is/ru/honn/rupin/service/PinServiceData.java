@@ -40,7 +40,7 @@ public class PinServiceData implements PinService
   public Board getBoard(String username, String boardname)
   {
     Board board = boardDataGateway.getBoard(username, boardname);
-    board.setPins(getPinsOnBoard(username,boardname));
+    board.setPins(pinDataGateway.getPinsOnBoard(username,boardname));
     return board;
   }
 
@@ -84,6 +84,11 @@ public class PinServiceData implements PinService
   public List<Pin> getPinsOnBoard(String username, String boardname)
   {
     List<Pin> pins = pinDataGateway.getPinsOnBoard(username, boardname);
+    for(Pin pin : pins)
+    {
+        pin.setCreator(userDataGateway.getUserByUsername(username));
+        pin.setBoard(getBoard(username,boardname));
+    }
     return pins;
   }
 

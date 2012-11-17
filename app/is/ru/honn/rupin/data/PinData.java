@@ -29,12 +29,11 @@ public class PinData extends RuData implements PinDataGateway
   }
 
   @Override
-  public List<Pin> getPinsOnBoard(String boardname, String username)
+  public List<Pin> getPinsOnBoard(String username, String boardname)
   {
     JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
     List<Pin> pins = (List<Pin>)jdbcTemplate.query(
-            "select * from ru_boards,ru_pins where ru_boards.username='" + username + "' and ru_boards.boardname='" + boardname
-        + "' and ru_boards.boardname=ru_pins.boardname and ru_boards.username=ru_pins.username", new BoardRowMapper());
+            "select * from ru_pins where username='" + username + "' and boardname='" + boardname + "'", new PinRowMapper());
     return pins;
   }
 }
