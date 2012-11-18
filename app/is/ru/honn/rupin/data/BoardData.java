@@ -43,7 +43,7 @@ public class BoardData extends RuData implements BoardDataGateway
     Collection<String> users;
     JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
     List<Board> boards = (List<Board>)jdbcTemplate.query(
-        "select * from ru_boards where username=?", new BoardRowMapper(), username);
+        "select * from ru_boards where username='" + username + "'", new BoardRowMapper());
     return boards;
   }
 }

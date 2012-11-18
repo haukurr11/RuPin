@@ -2,7 +2,14 @@
 @main(Html("RuPin")) {
     
     <h2>Welcome! @stuff.getUser().getUsername()</h2>
-    <p>
-        This is a test!
-   </p>
+ @for( pin <- stuff.getPins() ) {
+    <div class="pin">
+        <a href="@pin.getLink()">
+        <img src="@pin.getImage()" alt="Pin image"/>
+        </a>
+        <p>Pinned by @pin.getBoard().getCreator().getName()</p>
+        <div class="desc">@pin.getDescription()</div>
+    </div>
+     }
+
 }

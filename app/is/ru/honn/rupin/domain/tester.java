@@ -12,6 +12,7 @@ public class tester {
   {
     ApplicationContext ctx = new FileSystemXmlApplicationContext("/conf/ApplicationContext.xml");
     PinService pinService = (PinService)ctx.getBean("pinService");
+
     Board board = pinService.getBoard("knutur", "Inspiration");
     System.out.println(board.getPins().get(0).getCreator());
 

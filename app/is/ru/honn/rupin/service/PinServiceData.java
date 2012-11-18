@@ -17,21 +17,24 @@ public class PinServiceData implements PinService
   BoardDataGateway boardDataGateway;
   PinDataGateway pinDataGateway;
 
-  public PinServiceData()
+   public PinServiceData()
   {
   }
 
-  public void setUserDataGateway(UserDataGateway userDataGateway)
+  @Override
+   public void setUserDataGateway(UserDataGateway userDataGateway)
   {
     this.userDataGateway = userDataGateway;
   }
 
-  public void setBoardDataGateway(BoardDataGateway boardDataGateway)
+  @Override
+   public void setBoardDataGateway(BoardDataGateway boardDataGateway)
   {
     this.boardDataGateway = boardDataGateway;
   }
 
-  public void setPinDataGateway(PinDataGateway pinDataGateway)
+  @Override
+   public void setPinDataGateway(PinDataGateway pinDataGateway)
   {
     this.pinDataGateway = pinDataGateway;
   }
@@ -53,7 +56,19 @@ public class PinServiceData implements PinService
   @Override
   public List<Board> getBoards(String username)
   {
-    return boardDataGateway.getBoards(username);
+    List<Board> boards = boardDataGateway.getBoards(username);
+
+    for(Board board : boards)
+    {
+       List<Pin> pins = getPinsOnBoard(username, board.getName());
+       board.setPins(pins);
+     for(Pin pin: pins)
+     {
+        pin.setBoard(board);
+        pin.setCreator(board.getCreator());
+     }
+    }
+    return boards;
   }
 
   @Override
@@ -95,6 +110,7 @@ public class PinServiceData implements PinService
             boards.addAll(getBoards(user.getUsername()));
         return boards;
     }
+
   @Override
   public List<Pin> getPinsOnBoard(String username, String boardname) {
       return pinDataGateway.getPinsOnBoard(username, boardname);

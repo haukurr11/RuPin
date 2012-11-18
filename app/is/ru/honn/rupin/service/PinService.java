@@ -21,7 +21,6 @@ public interface PinService
     throws BoardNotFoundException;
   public List<Pin> getPinsOnBoard(String username, String boardname) throws UserNotFoundException;
   public List<Board> getFollowedBoards(String username);
-
   public void setUserDataGateway(UserDataGateway userDataGateway);
   public void setBoardDataGateway(BoardDataGateway boardDataGateway);
   public void setPinDataGateway(PinDataGateway pinDataGateway);

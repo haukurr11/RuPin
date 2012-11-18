@@ -14,5 +14,9 @@ public class IndexModel  {
     public void setUser(User user) {
         this.user = user;
     }
+    public List<Pin> getPins()
+    {
+        return list;
+    }
 
 }
