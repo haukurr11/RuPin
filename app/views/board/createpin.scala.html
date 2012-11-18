@@ -1,0 +1,31 @@
+@(pin: viewmodels.CreatePinModel)
+@import helper._
+@import helper.twitterBootstrap._
+
+@main(Html("Create pin")){
+@helper.form(action = routes.BoardController.createPin(pin.getUser().getUsername(),pin.getBoard().getName())) {
+<fieldset>
+    <legend>Create Pin</legend>
+    @inputText(
+    pin.getFilledForm()("link"),
+    '_label -> "link",
+    '_help -> "Please enter your link."
+    )
+    @inputText(
+    pin.getFilledForm()("description"),
+    '_label -> "description",
+    '_help -> "Please enter your description."
+    )
+    @inputText(
+    pin.getFilledForm()("image"),
+    '_label -> "image",
+    '_help -> "Please enter your image link."
+    )
+</fieldset>
+
+<div class="actions">
+    <input type="submit" class="btn primary" value="submit">
+    <a href="@routes.Application.index" class="btn">Cancel</a>
+</div>
+}
+}

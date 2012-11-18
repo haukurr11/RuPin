@@ -3,7 +3,7 @@
 
 <h2>@stuff.getBoard().getName()</h2>
 @if(stuff.getUser().getUsername == stuff.getBoard().getCreator().getUsername()) {
-<button>Add Pin</button>
+<a href="createpin" <button>Add Pin</button>
 }
 
 @for( pin <- stuff.getBoard().getPins() ) {

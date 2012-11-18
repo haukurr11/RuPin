@@ -1,6 +1,6 @@
-// @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:69c45b437dc2a8181e0d3da7df723341d564ac3d
-// @DATE:Sun Nov 18 20:06:52 GMT 2012
+// @SOURCE:C:/Users/RuPin/conf/routes
+// @HASH:5e977c609e87e851364e53121a227a99325662be
+// @DATE:Sun Nov 18 21:18:31 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -12,6 +12,8 @@ import play.libs.F
 import Router.queryString
 
 
+// @LINE:27
+// @LINE:26
 // @LINE:24
 // @LINE:23
 // @LINE:20
@@ -64,12 +66,20 @@ def blank() = {
 }
                             
 
+// @LINE:27
+// @LINE:26
 // @LINE:24
 // @LINE:23
 class ReverseBoardController {
     
 
 
+ 
+// @LINE:27
+def submitPin(username:String, boardname:String) = {
+   Call("POST", "/board/createpin/" + implicitly[PathBindable[String]].unbind("username", username) + "/" + implicitly[PathBindable[String]].unbind("boardname", boardname))
+}
+                                                        
  
 // @LINE:24
 def myBoards() = {
@@ -80,6 +90,12 @@ def myBoards() = {
 // @LINE:23
 def viewBoard(username:String, boardname:String) = {
    Call("GET", "/board/view/" + implicitly[PathBindable[String]].unbind("username", username) + "/" + implicitly[PathBindable[String]].unbind("boardname", boardname))
+}
+                                                        
+ 
+// @LINE:26
+def createPin(username:String, boardname:String) = {
+   Call("GET", "/board/createpin/" + implicitly[PathBindable[String]].unbind("username", username) + "/" + implicitly[PathBindable[String]].unbind("boardname", boardname))
 }
                                                         
 
@@ -139,6 +155,8 @@ def index() = {
                     
 
 
+// @LINE:27
+// @LINE:26
 // @LINE:24
 // @LINE:23
 // @LINE:20
@@ -206,12 +224,25 @@ def blank = JavascriptReverseRoute(
 }
                             
 
+// @LINE:27
+// @LINE:26
 // @LINE:24
 // @LINE:23
 class ReverseBoardController {
     
 
 
+ 
+// @LINE:27
+def submitPin = JavascriptReverseRoute(
+   "controllers.BoardController.submitPin",
+   """
+      function(username,boardname) {
+      return _wA({method:"POST", url:"/board/createpin/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("username", username) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("boardname", boardname)})
+      }
+   """
+)
+                                                        
  
 // @LINE:24
 def myBoards = JavascriptReverseRoute(
@@ -230,6 +261,17 @@ def viewBoard = JavascriptReverseRoute(
    """
       function(username,boardname) {
       return _wA({method:"GET", url:"/board/view/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("username", username) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("boardname", boardname)})
+      }
+   """
+)
+                                                        
+ 
+// @LINE:26
+def createPin = JavascriptReverseRoute(
+   "controllers.BoardController.createPin",
+   """
+      function(username,boardname) {
+      return _wA({method:"GET", url:"/board/createpin/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("username", username) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("boardname", boardname)})
       }
    """
 )
@@ -311,6 +353,8 @@ def index = JavascriptReverseRoute(
                     
 
 
+// @LINE:27
+// @LINE:26
 // @LINE:24
 // @LINE:23
 // @LINE:20
@@ -363,12 +407,20 @@ def blank() = new play.api.mvc.HandlerRef(
 }
                             
 
+// @LINE:27
+// @LINE:26
 // @LINE:24
 // @LINE:23
 class ReverseBoardController {
     
 
 
+ 
+// @LINE:27
+def submitPin(username:String, boardname:String) = new play.api.mvc.HandlerRef(
+   controllers.BoardController.submitPin(username, boardname), HandlerDef(this, "controllers.BoardController", "submitPin", Seq(classOf[String], classOf[String]))
+)
+                              
  
 // @LINE:24
 def myBoards() = new play.api.mvc.HandlerRef(
@@ -379,6 +431,12 @@ def myBoards() = new play.api.mvc.HandlerRef(
 // @LINE:23
 def viewBoard(username:String, boardname:String) = new play.api.mvc.HandlerRef(
    controllers.BoardController.viewBoard(username, boardname), HandlerDef(this, "controllers.BoardController", "viewBoard", Seq(classOf[String], classOf[String]))
+)
+                              
+ 
+// @LINE:26
+def createPin(username:String, boardname:String) = new play.api.mvc.HandlerRef(
+   controllers.BoardController.createPin(username, boardname), HandlerDef(this, "controllers.BoardController", "createPin", Seq(classOf[String], classOf[String]))
 )
                               
 

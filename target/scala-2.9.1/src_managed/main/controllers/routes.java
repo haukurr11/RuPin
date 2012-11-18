@@ -1,6 +1,6 @@
-// @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:69c45b437dc2a8181e0d3da7df723341d564ac3d
-// @DATE:Sun Nov 18 20:06:52 GMT 2012
+// @SOURCE:C:/Users/RuPin/conf/routes
+// @HASH:5e977c609e87e851364e53121a227a99325662be
+// @DATE:Sun Nov 18 21:18:31 GMT 2012
 
 package controllers;
 

@@ -1,7 +1,9 @@
 package viewmodels;
 
 import is.ru.honn.rupin.domain.Board;
+import is.ru.honn.rupin.domain.Pin;
 import is.ru.honn.rupin.domain.User;
+import play.data.Form;
 
 /**
  * Creator: Haukur Rosinkranz

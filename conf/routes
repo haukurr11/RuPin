@@ -23,3 +23,6 @@ GET /logout controllers.Session.logout()
 GET /board/view/:username/:boardname controllers.BoardController.viewBoard(username,boardname)
 GET /board/myboards controllers.BoardController.myBoards()
 
+GET /board/createpin/:username/:boardname controllers.BoardController.createPin(username,boardname)
+POST  /board/createpin/:username/:boardname controllers.BoardController.submitPin(username,boardname)
+
