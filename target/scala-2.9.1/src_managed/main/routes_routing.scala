@@ -1,6 +1,6 @@
 // @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:69c45b437dc2a8181e0d3da7df723341d564ac3d
-// @DATE:Sun Nov 18 20:06:52 GMT 2012
+// @HASH:7f3ae3238bbd013dd6caa906a28b3781332c8453
+// @DATE:Sun Nov 18 20:35:38 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -47,9 +47,13 @@ val controllers_BoardController_viewBoard7 = Route("GET", PathPattern(List(Stati
                     
 
 // @LINE:24
-val controllers_BoardController_myBoards8 = Route("GET", PathPattern(List(StaticPart("/board/myboards"))))
+val controllers_Application_user8 = Route("GET", PathPattern(List(StaticPart("/user/"),DynamicPart("username", """[^/]+"""))))
                     
-def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/view/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""GET""","""/board/myboards""","""controllers.BoardController.myBoards()"""))
+
+// @LINE:25
+val controllers_BoardController_myBoards9 = Route("GET", PathPattern(List(StaticPart("/board/myboards"))))
+                    
+def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/view/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""GET""","""/user/$username<[^/]+>""","""controllers.Application.user(username:String)"""),("""GET""","""/board/myboards""","""controllers.BoardController.myBoards()"""))
              
     
 def routes:PartialFunction[RequestHeader,Handler] = {        
@@ -119,7 +123,15 @@ case controllers_BoardController_viewBoard7(params) => {
                     
 
 // @LINE:24
-case controllers_BoardController_myBoards8(params) => {
+case controllers_Application_user8(params) => {
+   call(params.fromPath[String]("username", None)) { (username) =>
+        invokeHandler(_root_.controllers.Application.user(username), HandlerDef(this, "controllers.Application", "user", Seq(classOf[String])))
+   }
+}
+                    
+
+// @LINE:25
+case controllers_BoardController_myBoards9(params) => {
    call { 
         invokeHandler(_root_.controllers.BoardController.myBoards(), HandlerDef(this, "controllers.BoardController", "myBoards", Nil))
    }

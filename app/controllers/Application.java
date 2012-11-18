@@ -34,6 +34,13 @@ public class Application extends RuPinController
     current.list = followedPins;
     return ok(index.render(current));
  }
-
+public static Result user(String username)
+{
+     String loggedInUsername = session().get("username");
+     if(loggedInUsername == null)
+            return redirect( routes.Session.login()  );
+     User user = userService.getUser(username) ;
+     return ok(views.html.user.render(user));
+}
 
 }

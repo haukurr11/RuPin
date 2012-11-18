@@ -21,5 +21,6 @@ GET /logout controllers.Session.logout()
 
 #viewboard
 GET /board/view/:username/:boardname controllers.BoardController.viewBoard(username,boardname)
+GET /user/:username controllers.Application.user(username)
 GET /board/myboards controllers.BoardController.myBoards()
 

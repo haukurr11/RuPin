@@ -1,0 +1,7 @@
+@(user: is.ru.honn.rupin.domain.User)
+
+@main(Html("Viewing profile of " +  user.getName() ) ) {
+    <p>Name: @user.getName()</p>
+    <p>Username: @user.getUsername()</p>
+    <p>Email: @user.getEmail()</p>
+}

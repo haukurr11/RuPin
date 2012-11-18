@@ -1,6 +1,6 @@
 // @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:69c45b437dc2a8181e0d3da7df723341d564ac3d
-// @DATE:Sun Nov 18 20:06:52 GMT 2012
+// @HASH:7f3ae3238bbd013dd6caa906a28b3781332c8453
+// @DATE:Sun Nov 18 20:35:38 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -12,6 +12,7 @@ import play.libs.F
 import Router.queryString
 
 
+// @LINE:25
 // @LINE:24
 // @LINE:23
 // @LINE:20
@@ -64,14 +65,14 @@ def blank() = {
 }
                             
 
-// @LINE:24
+// @LINE:25
 // @LINE:23
 class ReverseBoardController {
     
 
 
  
-// @LINE:24
+// @LINE:25
 def myBoards() = {
    Call("GET", "/board/myboards")
 }
@@ -119,11 +120,18 @@ def login() = {
 }
                             
 
+// @LINE:24
 // @LINE:6
 class ReverseApplication {
     
 
 
+ 
+// @LINE:24
+def user(username:String) = {
+   Call("GET", "/user/" + implicitly[PathBindable[String]].unbind("username", username))
+}
+                                                        
  
 // @LINE:6
 def index() = {
@@ -139,6 +147,7 @@ def index() = {
                     
 
 
+// @LINE:25
 // @LINE:24
 // @LINE:23
 // @LINE:20
@@ -206,14 +215,14 @@ def blank = JavascriptReverseRoute(
 }
                             
 
-// @LINE:24
+// @LINE:25
 // @LINE:23
 class ReverseBoardController {
     
 
 
  
-// @LINE:24
+// @LINE:25
 def myBoards = JavascriptReverseRoute(
    "controllers.BoardController.myBoards",
    """
@@ -286,11 +295,23 @@ def login = JavascriptReverseRoute(
 }
                             
 
+// @LINE:24
 // @LINE:6
 class ReverseApplication {
     
 
 
+ 
+// @LINE:24
+def user = JavascriptReverseRoute(
+   "controllers.Application.user",
+   """
+      function(username) {
+      return _wA({method:"GET", url:"/user/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("username", username)})
+      }
+   """
+)
+                                                        
  
 // @LINE:6
 def index = JavascriptReverseRoute(
@@ -311,6 +332,7 @@ def index = JavascriptReverseRoute(
                     
 
 
+// @LINE:25
 // @LINE:24
 // @LINE:23
 // @LINE:20
@@ -363,14 +385,14 @@ def blank() = new play.api.mvc.HandlerRef(
 }
                             
 
-// @LINE:24
+// @LINE:25
 // @LINE:23
 class ReverseBoardController {
     
 
 
  
-// @LINE:24
+// @LINE:25
 def myBoards() = new play.api.mvc.HandlerRef(
    controllers.BoardController.myBoards(), HandlerDef(this, "controllers.BoardController", "myBoards", Seq())
 )
@@ -418,11 +440,18 @@ def login() = new play.api.mvc.HandlerRef(
 }
                             
 
+// @LINE:24
 // @LINE:6
 class ReverseApplication {
     
 
 
+ 
+// @LINE:24
+def user(username:String) = new play.api.mvc.HandlerRef(
+   controllers.Application.user(username), HandlerDef(this, "controllers.Application", "user", Seq(classOf[String]))
+)
+                              
  
 // @LINE:6
 def index() = new play.api.mvc.HandlerRef(
