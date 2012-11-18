@@ -1,15 +1,22 @@
 @(stuff: viewmodels.IndexModel)
 @main(Html("RuPin")) {
     
-    <h2>Welcome! @stuff.getUser().getUsername()</h2>
- @for( pin <- stuff.getPins() ) {
+    <h2>Welcome! @stuff.getUser().getName()</h2>
+
+@for( pin <- stuff.getPins() ) {
     <div class="pin">
         <a href="@pin.getLink()">
         <img src="@pin.getImage()" alt="Pin image"/>
         </a>
         <p>Pinned by @pin.getBoard().getCreator().getName()</p>
+        <p>On board
+        <a href="@routes.BoardController.viewBoard(
+        pin.getBoard().getCreator().getUsername(),
+        pin.getBoard().getName())">@pin.getBoard().getName()
+        </a></p>
+        <p>In category:
+        @pin.getBoard().getCategory()</p>
         <div class="desc">@pin.getDescription()</div>
     </div>
-     }
-
+  }
 }

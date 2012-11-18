@@ -1,6 +1,6 @@
 // @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:1eb564dcb1d6fdc87676a6abd29542f7ec648c43
-// @DATE:Sun Nov 18 18:23:17 GMT 2012
+// @HASH:69c45b437dc2a8181e0d3da7df723341d564ac3d
+// @DATE:Sun Nov 18 20:06:52 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -43,13 +43,13 @@ val controllers_Session_logout6 = Route("GET", PathPattern(List(StaticPart("/log
                     
 
 // @LINE:23
-val controllers_BoardController_viewBoard7 = Route("GET", PathPattern(List(StaticPart("/board/viewboard/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
+val controllers_BoardController_viewBoard7 = Route("GET", PathPattern(List(StaticPart("/board/view/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
                     
 
 // @LINE:24
-val controllers_Session_authenticate8 = Route("POST", PathPattern(List(StaticPart("/login"))))
+val controllers_BoardController_myBoards8 = Route("GET", PathPattern(List(StaticPart("/board/myboards"))))
                     
-def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/viewboard/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""POST""","""/login""","""controllers.Session.authenticate()"""))
+def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/view/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""GET""","""/board/myboards""","""controllers.BoardController.myBoards()"""))
              
     
 def routes:PartialFunction[RequestHeader,Handler] = {        
@@ -119,9 +119,9 @@ case controllers_BoardController_viewBoard7(params) => {
                     
 
 // @LINE:24
-case controllers_Session_authenticate8(params) => {
+case controllers_BoardController_myBoards8(params) => {
    call { 
-        invokeHandler(_root_.controllers.Session.authenticate(), HandlerDef(this, "controllers.Session", "authenticate", Nil))
+        invokeHandler(_root_.controllers.BoardController.myBoards(), HandlerDef(this, "controllers.BoardController", "myBoards", Nil))
    }
 }
                     

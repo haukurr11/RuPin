@@ -1,195 +1,15 @@
-2012-11-18 18:36:26,142 - [INFO] - from play in main 
+2012-11-18 20:10:04,410 - [INFO] - from play in main 
 Listening for HTTP on port 9000...
 
-2012-11-18 18:36:28,040 - [INFO] - from play in play-akka.actor.default-dispatcher-2 
+2012-11-18 20:10:05,719 - [INFO] - from play in play-akka.actor.default-dispatcher-2 
 Application started (Dev)
 
-2012-11-18 18:36:28,973 - [ERROR] - from application in play-akka.actor.actions-dispatcher-7 
+2012-11-18 20:10:33,540 - [ERROR] - from application in New I/O  worker #12 
 
 
-! @6cchnap73 - Internal server error, for request [GET /board/viewboard/knutur/Inspiration] ->
+! Internal server error, for request [GET /board/myboards] ->
 
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at views.html.board.viewboard$$anonfun$apply$1.apply(viewboard.template.scala:40) ~[classes/:na]
-	at views.html.board.viewboard$$anonfun$apply$1.apply(viewboard.template.scala:35) ~[classes/:na]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
-	at scala.collection.Iterator$class.foreach(Iterator.scala:660) ~[scala-library.jar:0.11.3]
-	at scala.collection.JavaConversions$JIteratorWrapper.foreach(JavaConversions.scala:573) ~[scala-library.jar:0.11.3]
-	at scala.collection.IterableLike$class.foreach(IterableLike.scala:73) ~[scala-library.jar:0.11.3]
-	at scala.collection.JavaConversions$JListWrapper.foreach(JavaConversions.scala:615) ~[scala-library.jar:0.11.3]
-	at scala.collection.TraversableLike$class.map(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
-	at scala.collection.JavaConversions$JListWrapper.map(JavaConversions.scala:615) ~[scala-library.jar:0.11.3]
-	at views.html.board.viewboard$.apply(viewboard.template.scala:35) ~[classes/:na]
-	at views.html.board.viewboard$.render(viewboard.template.scala:48) ~[classes/:na]
-	at views.html.board.viewboard.render(viewboard.template.scala) ~[classes/:na]
-	at controllers.BoardController.viewBoard(BoardController.java:22) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:116) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:116) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 18:36:56,895 - [INFO] - from play in play-akka.actor.default-dispatcher-1 
-Application started (Dev)
-
-2012-11-18 18:37:28,949 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
-Application started (Dev)
-
-2012-11-18 18:37:29,161 - [ERROR] - from application in play-akka.actor.actions-dispatcher-5 
-
-
-! @6cchnap74 - Internal server error, for request [GET /board/viewboard/knutur/Inspiration] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at views.html.board.viewboard$$anonfun$apply$1.apply(viewboard.template.scala:40) ~[classes/:na]
-	at views.html.board.viewboard$$anonfun$apply$1.apply(viewboard.template.scala:35) ~[classes/:na]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
-	at scala.collection.Iterator$class.foreach(Iterator.scala:660) ~[scala-library.jar:0.11.3]
-	at scala.collection.JavaConversions$JIteratorWrapper.foreach(JavaConversions.scala:573) ~[scala-library.jar:0.11.3]
-	at scala.collection.IterableLike$class.foreach(IterableLike.scala:73) ~[scala-library.jar:0.11.3]
-	at scala.collection.JavaConversions$JListWrapper.foreach(JavaConversions.scala:615) ~[scala-library.jar:0.11.3]
-	at scala.collection.TraversableLike$class.map(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
-	at scala.collection.JavaConversions$JListWrapper.map(JavaConversions.scala:615) ~[scala-library.jar:0.11.3]
-	at views.html.board.viewboard$.apply(viewboard.template.scala:35) ~[classes/:na]
-	at views.html.board.viewboard$.render(viewboard.template.scala:48) ~[classes/:na]
-	at views.html.board.viewboard.render(viewboard.template.scala) ~[classes/:na]
-	at controllers.BoardController.viewBoard(BoardController.java:17) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:116) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:116) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 18:37:38,480 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
-Application started (Dev)
-
-2012-11-18 18:38:13,526 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
-Application started (Dev)
-
-2012-11-18 18:38:13,734 - [ERROR] - from application in play-akka.actor.actions-dispatcher-10 
-
-
-! @6cchnap75 - Internal server error, for request [GET /board/viewboard/knutur/Inspiration] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at is.ru.honn.rupin.service.PinServiceData.getBoard(PinServiceData.java:43) ~[classes/:na]
-	at controllers.BoardController.viewBoard(BoardController.java:15) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:116) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:116) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 18:39:07,524 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
-Application started (Dev)
-
-2012-11-18 18:39:07,657 - [ERROR] - from application in play-akka.actor.actions-dispatcher-10 
-
-
-! @6cchnap76 - Internal server error, for request [GET /board/viewboard/knutur/Inspiration] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at is.ru.honn.rupin.service.PinServiceData.getBoard(PinServiceData.java:43) ~[classes/:na]
-	at controllers.BoardController.viewBoard(BoardController.java:15) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:116) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:116) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 18:39:20,723 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
-Application started (Dev)
-
-2012-11-18 18:41:52,397 - [INFO] - from play in play-akka.actor.default-dispatcher-8 
-Application started (Dev)
-
-2012-11-18 18:45:38,293 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
-Application started (Dev)
-
-2012-11-18 18:48:30,700 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/viewboard/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [error: method getFollowedBoards in interface PinService cannot be applied to given types;]
+sbt.PlayExceptions$CompilationException: Compilation error [error: cannot find symbol]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
@@ -214,46 +34,106 @@ sbt.PlayExceptions$CompilationException: Compilation error [error: method getFol
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
 
-2012-11-18 18:48:45,655 - [INFO] - from play in play-akka.actor.default-dispatcher-10 
+2012-11-18 20:10:42,830 - [ERROR] - from application in New I/O  worker #12 
+
+
+! Internal server error, for request [GET /board/myboards] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [error: cannot find symbol]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:11:11,708 - [ERROR] - from application in New I/O  worker #12 
+
+
+! Internal server error, for request [GET /board/myboards] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [identifier expected but $XMLSTART$< found.]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:13:29,029 - [ERROR] - from application in New I/O  worker #13 
+
+
+! Internal server error, for request [GET /board/myboards] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [value getName is not a member of java.util.List[is.ru.honn.rupin.domain.Board]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:14:02,325 - [INFO] - from play in play-akka.actor.default-dispatcher-2 
 Application started (Dev)
 
-2012-11-18 18:48:50,401 - [ERROR] - from application in play-akka.actor.actions-dispatcher-13 
+2012-11-18 20:14:53,741 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
+Application started (Dev)
+
+2012-11-18 20:14:53,980 - [ERROR] - from application in play-akka.actor.actions-dispatcher-11 
 
 
-! @6cchnap77 - Internal server error, for request [GET /] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at is.ru.honn.rupin.service.PinServiceData.getFollowedBoards(PinServiceData.java:93) ~[classes/:na]
-	at controllers.Application.index(Application.java:26) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 18:48:51,303 - [ERROR] - from application in play-akka.actor.actions-dispatcher-13 
-
-
-! @6cchnap78 - Internal server error, for request [GET /] ->
+! @6cci9igad - Internal server error, for request [GET /board/myboards] ->
 
 play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
 	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
@@ -269,10 +149,22 @@ play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPo
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
 Caused by: java.lang.NullPointerException: null
-	at is.ru.honn.rupin.service.PinServiceData.getFollowedBoards(PinServiceData.java:93) ~[classes/:na]
-	at controllers.Application.index(Application.java:26) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
+	at views.html.board.myboards$$anonfun$apply$1.apply(myboards.template.scala:36) ~[classes/:na]
+	at views.html.board.myboards$$anonfun$apply$1.apply(myboards.template.scala:34) ~[classes/:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:660) ~[scala-library.jar:0.11.3]
+	at scala.collection.JavaConversions$JIteratorWrapper.foreach(JavaConversions.scala:573) ~[scala-library.jar:0.11.3]
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:73) ~[scala-library.jar:0.11.3]
+	at scala.collection.JavaConversions$JListWrapper.foreach(JavaConversions.scala:615) ~[scala-library.jar:0.11.3]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
+	at scala.collection.JavaConversions$JListWrapper.map(JavaConversions.scala:615) ~[scala-library.jar:0.11.3]
+	at views.html.board.myboards$.apply(myboards.template.scala:34) ~[classes/:na]
+	at views.html.board.myboards$.render(myboards.template.scala:43) ~[classes/:na]
+	at views.html.board.myboards.render(myboards.template.scala) ~[classes/:na]
+	at controllers.BoardController.myBoards(BoardController.java:30) ~[classes/:2.0.4]
+	at Routes$$anonfun$routes$1$$anonfun$apply$17$$anonfun$apply$18.apply(routes_routing.scala:124) ~[classes/:na]
+	at Routes$$anonfun$routes$1$$anonfun$apply$17$$anonfun$apply$18.apply(routes_routing.scala:124) ~[classes/:na]
 	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
 	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
 	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
@@ -283,144 +175,15 @@ Caused by: java.lang.NullPointerException: null
 	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
 	... 11 common frames omitted
 
-2012-11-18 18:48:51,855 - [ERROR] - from application in play-akka.actor.actions-dispatcher-13 
+2012-11-18 20:16:14,623 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
+Application started (Dev)
 
-
-! @6cchnap79 - Internal server error, for request [GET /] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at is.ru.honn.rupin.service.PinServiceData.getFollowedBoards(PinServiceData.java:93) ~[classes/:na]
-	at controllers.Application.index(Application.java:26) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 18:48:52,088 - [ERROR] - from application in play-akka.actor.actions-dispatcher-13 
-
-
-! @6cchnap7a - Internal server error, for request [GET /] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at is.ru.honn.rupin.service.PinServiceData.getFollowedBoards(PinServiceData.java:93) ~[classes/:na]
-	at controllers.Application.index(Application.java:26) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 18:48:52,244 - [ERROR] - from application in play-akka.actor.actions-dispatcher-13 
-
-
-! @6cchnap7b - Internal server error, for request [GET /] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at is.ru.honn.rupin.service.PinServiceData.getFollowedBoards(PinServiceData.java:93) ~[classes/:na]
-	at controllers.Application.index(Application.java:26) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 18:48:52,407 - [ERROR] - from application in play-akka.actor.actions-dispatcher-13 
-
-
-! @6cchnap7c - Internal server error, for request [GET /] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at is.ru.honn.rupin.service.PinServiceData.getFollowedBoards(PinServiceData.java:93) ~[classes/:na]
-	at controllers.Application.index(Application.java:26) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 18:57:30,120 - [ERROR] - from application in New I/O  worker #16 
+2012-11-18 20:17:00,385 - [ERROR] - from application in New I/O  worker #13 
 
 
 ! Internal server error, for request [GET /] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [error: ';' expected]
+sbt.PlayExceptions$CompilationException: Compilation error [value myboards is not a member of controllers.ReverseBoardController]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
@@ -445,15 +208,15 @@ sbt.PlayExceptions$CompilationException: Compilation error [error: ';' expected]
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
 
-2012-11-18 18:57:38,588 - [INFO] - from play in play-akka.actor.default-dispatcher-11 
+2012-11-18 20:17:17,242 - [INFO] - from play in play-akka.actor.default-dispatcher-14 
 Application started (Dev)
 
-2012-11-18 18:58:55,041 - [ERROR] - from application in New I/O  worker #16 
+2012-11-18 20:24:13,532 - [ERROR] - from application in New I/O  worker #8 
 
 
-! Internal server error, for request [GET /] ->
+! Internal server error, for request [GET /board/view/lallijohns/Cleaning%20Tips] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [value getPins is not a member of viewmodels.IndexModel]
+sbt.PlayExceptions$CompilationException: Compilation error [value getName is not a member of viewmodels.ViewBoardModel]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
@@ -478,72 +241,225 @@ sbt.PlayExceptions$CompilationException: Compilation error [value getPins is not
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
 
-2012-11-18 18:59:34,624 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+2012-11-18 20:24:15,319 - [ERROR] - from application in New I/O  worker #8 
+
+
+! Internal server error, for request [GET /board/view/lallijohns/Cleaning%20Tips] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [value getName is not a member of viewmodels.ViewBoardModel]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:24:15,735 - [ERROR] - from application in New I/O  worker #8 
+
+
+! Internal server error, for request [GET /board/view/lallijohns/Cleaning%20Tips] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [value getName is not a member of viewmodels.ViewBoardModel]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:24:24,005 - [ERROR] - from application in New I/O  worker #8 
+
+
+! Internal server error, for request [GET /board/view/lallijohns/Cleaning%20Tips] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [value getName is not a member of viewmodels.ViewBoardModel]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:24:24,985 - [ERROR] - from application in New I/O  worker #8 
+
+
+! Internal server error, for request [GET /board/view/lallijohns/Cleaning%20Tips] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [value getName is not a member of viewmodels.ViewBoardModel]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:24:25,416 - [ERROR] - from application in New I/O  worker #8 
+
+
+! Internal server error, for request [GET /board/view/lallijohns/Cleaning%20Tips] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [value getName is not a member of viewmodels.ViewBoardModel]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:24:37,157 - [ERROR] - from application in New I/O  worker #8 
+
+
+! Internal server error, for request [GET /board/view/lallijohns/Cleaning%20Tips] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [variable board in class ViewBoardModel cannot be accessed in viewmodels.ViewBoardModel]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:24:47,451 - [ERROR] - from application in New I/O  worker #8 
+
+
+! Internal server error, for request [GET /board/view/lallijohns/Cleaning%20Tips] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [variable board in class ViewBoardModel cannot be accessed in viewmodels.ViewBoardModel]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 20:25:01,610 - [INFO] - from play in play-akka.actor.default-dispatcher-17 
 Application started (Dev)
 
-2012-11-18 19:01:31,812 - [INFO] - from play in play-akka.actor.default-dispatcher-13 
+2012-11-18 20:25:56,062 - [INFO] - from play in play-akka.actor.default-dispatcher-18 
 Application started (Dev)
 
-2012-11-18 19:05:17,986 - [INFO] - from play in play-akka.actor.default-dispatcher-15 
+2012-11-18 20:26:27,823 - [INFO] - from play in play-akka.actor.default-dispatcher-20 
 Application started (Dev)
 
-2012-11-18 19:05:50,705 - [INFO] - from play in play-akka.actor.default-dispatcher-15 
-Application started (Dev)
-
-2012-11-18 19:06:19,901 - [INFO] - from play in play-akka.actor.default-dispatcher-17 
-Application started (Dev)
-
-2012-11-18 19:11:17,050 - [INFO] - from play in play-akka.actor.default-dispatcher-18 
-Application started (Dev)
-
-2012-11-18 19:11:17,438 - [ERROR] - from application in play-akka.actor.actions-dispatcher-20 
-
-
-! @6cchnap7d - Internal server error, for request [GET /] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at views.html.index$$anonfun$apply$1.apply(index.template.scala:39) ~[classes/:na]
-	at views.html.index$$anonfun$apply$1.apply(index.template.scala:34) ~[classes/:na]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
-	at scala.collection.Iterator$class.foreach(Iterator.scala:660) ~[scala-library.jar:0.11.3]
-	at scala.collection.JavaConversions$JIteratorWrapper.foreach(JavaConversions.scala:573) ~[scala-library.jar:0.11.3]
-	at scala.collection.IterableLike$class.foreach(IterableLike.scala:73) ~[scala-library.jar:0.11.3]
-	at scala.collection.JavaConversions$JListWrapper.foreach(JavaConversions.scala:615) ~[scala-library.jar:0.11.3]
-	at scala.collection.TraversableLike$class.map(TraversableLike.scala:194) ~[scala-library.jar:0.11.3]
-	at scala.collection.JavaConversions$JListWrapper.map(JavaConversions.scala:615) ~[scala-library.jar:0.11.3]
-	at views.html.index$.apply(index.template.scala:34) ~[classes/:na]
-	at views.html.index$.render(index.template.scala:47) ~[classes/:na]
-	at views.html.index.render(index.template.scala) ~[classes/:na]
-	at controllers.Application.index(Application.java:33) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.apply(routes_routing.scala:60) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 19:13:21,634 - [INFO] - from play in play-akka.actor.default-dispatcher-18 
-Application started (Dev)
-
-2012-11-18 19:14:26,492 - [INFO] - from play in play-akka.actor.default-dispatcher-19 
+2012-11-18 20:27:17,330 - [INFO] - from play in play-akka.actor.default-dispatcher-22 
 Application started (Dev)
 

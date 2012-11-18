@@ -20,6 +20,6 @@ POST /login controllers.Session.authenticate()
 GET /logout controllers.Session.logout()
 
 #viewboard
-GET /board/viewboard/:username/:boardname controllers.BoardController.viewBoard(username,boardname)
-POST /login controllers.Session.authenticate()
+GET /board/view/:username/:boardname controllers.BoardController.viewBoard(username,boardname)
+GET /board/myboards controllers.BoardController.myBoards()
 

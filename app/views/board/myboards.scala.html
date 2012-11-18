@@ -1,0 +1,10 @@
+@(stuff: List[is.ru.honn.rupin.domain.Board])
+
+    @main(Html("RuPin")) {
+
+@for( board <- stuff) {
+<a href="@routes.BoardController.viewBoard(
+        board.getCreator().getUsername(),
+        board.getName())">@board.getName()
+        </a></p>}
+}

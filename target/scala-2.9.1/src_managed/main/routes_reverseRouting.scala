@@ -1,6 +1,6 @@
 // @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:1eb564dcb1d6fdc87676a6abd29542f7ec648c43
-// @DATE:Sun Nov 18 18:23:17 GMT 2012
+// @HASH:69c45b437dc2a8181e0d3da7df723341d564ac3d
+// @DATE:Sun Nov 18 20:06:52 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -64,15 +64,22 @@ def blank() = {
 }
                             
 
+// @LINE:24
 // @LINE:23
 class ReverseBoardController {
     
 
 
  
+// @LINE:24
+def myBoards() = {
+   Call("GET", "/board/myboards")
+}
+                                                        
+ 
 // @LINE:23
 def viewBoard(username:String, boardname:String) = {
-   Call("GET", "/board/viewboard/" + implicitly[PathBindable[String]].unbind("username", username) + "/" + implicitly[PathBindable[String]].unbind("boardname", boardname))
+   Call("GET", "/board/view/" + implicitly[PathBindable[String]].unbind("username", username) + "/" + implicitly[PathBindable[String]].unbind("boardname", boardname))
 }
                                                         
 
@@ -81,7 +88,6 @@ def viewBoard(username:String, boardname:String) = {
 }
                             
 
-// @LINE:24
 // @LINE:20
 // @LINE:17
 // @LINE:16
@@ -90,17 +96,9 @@ class ReverseSession {
 
 
  
-// @LINE:24
 // @LINE:17
 def authenticate() = {
-   () match {
-// @LINE:17
-case () if true => Call("POST", "/login")
-                                                                
-// @LINE:24
-case () if true => Call("POST", "/login")
-                                                                    
-   }
+   Call("POST", "/login")
 }
                                                         
  
@@ -208,18 +206,30 @@ def blank = JavascriptReverseRoute(
 }
                             
 
+// @LINE:24
 // @LINE:23
 class ReverseBoardController {
     
 
 
  
+// @LINE:24
+def myBoards = JavascriptReverseRoute(
+   "controllers.BoardController.myBoards",
+   """
+      function() {
+      return _wA({method:"GET", url:"/board/myboards"})
+      }
+   """
+)
+                                                        
+ 
 // @LINE:23
 def viewBoard = JavascriptReverseRoute(
    "controllers.BoardController.viewBoard",
    """
       function(username,boardname) {
-      return _wA({method:"GET", url:"/board/viewboard/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("username", username) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("boardname", boardname)})
+      return _wA({method:"GET", url:"/board/view/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("username", username) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("boardname", boardname)})
       }
    """
 )
@@ -230,7 +240,6 @@ def viewBoard = JavascriptReverseRoute(
 }
                             
 
-// @LINE:24
 // @LINE:20
 // @LINE:17
 // @LINE:16
@@ -239,18 +248,12 @@ class ReverseSession {
 
 
  
-// @LINE:24
 // @LINE:17
 def authenticate = JavascriptReverseRoute(
    "controllers.Session.authenticate",
    """
       function() {
-      if (true) {
       return _wA({method:"POST", url:"/login"})
-      }
-      if (true) {
-      return _wA({method:"POST", url:"/login"})
-      }
       }
    """
 )
@@ -360,11 +363,18 @@ def blank() = new play.api.mvc.HandlerRef(
 }
                             
 
+// @LINE:24
 // @LINE:23
 class ReverseBoardController {
     
 
 
+ 
+// @LINE:24
+def myBoards() = new play.api.mvc.HandlerRef(
+   controllers.BoardController.myBoards(), HandlerDef(this, "controllers.BoardController", "myBoards", Seq())
+)
+                              
  
 // @LINE:23
 def viewBoard(username:String, boardname:String) = new play.api.mvc.HandlerRef(
@@ -377,7 +387,6 @@ def viewBoard(username:String, boardname:String) = new play.api.mvc.HandlerRef(
 }
                             
 
-// @LINE:24
 // @LINE:20
 // @LINE:17
 // @LINE:16

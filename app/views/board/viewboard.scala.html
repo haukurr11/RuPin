@@ -1,16 +1,20 @@
-@(stuff: is.ru.honn.rupin.domain.Board)
+@(stuff: viewmodels.ViewBoardModel)
 @main(Html("RuPin")) {
 
- <h2>@stuff.getName()</h2>
+<h2>@stuff.getBoard().getName()</h2>
+@if(stuff.getUser().getUsername == stuff.getBoard().getCreator().getUsername()) {
+<button>Add Pin</button>
+}
 
-@for( pin <- stuff.getPins() ) {
+@for( pin <- stuff.getBoard().getPins() ) {
     <div class="pin">
         <a href="@pin.getLink()">
         <img src="@pin.getImage()" alt="Pin image"/>
         </a>
         <p>Pinned by @pin.getBoard().getCreator().getName()</p>
+        <p>On board <a href="@routes.BoardController.viewBoard(pin.getBoard().getCreator().getUsername(),
+        pin.getBoard().getName())">@pin.getBoard().getName()</a></p>
         <div class="desc">@pin.getDescription()</div>
     </div>
-
+   }
 }
-    }
