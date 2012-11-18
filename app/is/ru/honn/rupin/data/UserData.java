@@ -52,9 +52,7 @@ public class UserData extends RuData implements UserDataGateway
     parameters.put("isFollowing", 1);
     parameters.put("username", username);
     parameters.put("following", following);
-
     int returnKey;
-
     try
     {
       insert.execute(parameters);

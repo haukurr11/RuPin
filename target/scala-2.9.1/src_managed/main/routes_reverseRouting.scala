@@ -1,6 +1,6 @@
 // @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:40407affdaf1c235e1bdb67495289f9be69e8c9f
-// @DATE:Sat Nov 17 18:17:10 GMT 2012
+// @HASH:1eb564dcb1d6fdc87676a6abd29542f7ec648c43
+// @DATE:Sun Nov 18 18:23:17 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -12,8 +12,8 @@ import play.libs.F
 import Router.queryString
 
 
-// @LINE:25
 // @LINE:24
+// @LINE:23
 // @LINE:20
 // @LINE:17
 // @LINE:16
@@ -64,13 +64,13 @@ def blank() = {
 }
                             
 
-// @LINE:24
+// @LINE:23
 class ReverseBoardController {
     
 
 
  
-// @LINE:24
+// @LINE:23
 def viewBoard(username:String, boardname:String) = {
    Call("GET", "/board/viewboard/" + implicitly[PathBindable[String]].unbind("username", username) + "/" + implicitly[PathBindable[String]].unbind("boardname", boardname))
 }
@@ -81,7 +81,7 @@ def viewBoard(username:String, boardname:String) = {
 }
                             
 
-// @LINE:25
+// @LINE:24
 // @LINE:20
 // @LINE:17
 // @LINE:16
@@ -90,14 +90,14 @@ class ReverseSession {
 
 
  
-// @LINE:25
+// @LINE:24
 // @LINE:17
 def authenticate() = {
    () match {
 // @LINE:17
 case () if true => Call("POST", "/login")
                                                                 
-// @LINE:25
+// @LINE:24
 case () if true => Call("POST", "/login")
                                                                     
    }
@@ -141,8 +141,8 @@ def index() = {
                     
 
 
-// @LINE:25
 // @LINE:24
+// @LINE:23
 // @LINE:20
 // @LINE:17
 // @LINE:16
@@ -208,13 +208,13 @@ def blank = JavascriptReverseRoute(
 }
                             
 
-// @LINE:24
+// @LINE:23
 class ReverseBoardController {
     
 
 
  
-// @LINE:24
+// @LINE:23
 def viewBoard = JavascriptReverseRoute(
    "controllers.BoardController.viewBoard",
    """
@@ -230,7 +230,7 @@ def viewBoard = JavascriptReverseRoute(
 }
                             
 
-// @LINE:25
+// @LINE:24
 // @LINE:20
 // @LINE:17
 // @LINE:16
@@ -239,7 +239,7 @@ class ReverseSession {
 
 
  
-// @LINE:25
+// @LINE:24
 // @LINE:17
 def authenticate = JavascriptReverseRoute(
    "controllers.Session.authenticate",
@@ -308,8 +308,8 @@ def index = JavascriptReverseRoute(
                     
 
 
-// @LINE:25
 // @LINE:24
+// @LINE:23
 // @LINE:20
 // @LINE:17
 // @LINE:16
@@ -360,13 +360,13 @@ def blank() = new play.api.mvc.HandlerRef(
 }
                             
 
-// @LINE:24
+// @LINE:23
 class ReverseBoardController {
     
 
 
  
-// @LINE:24
+// @LINE:23
 def viewBoard(username:String, boardname:String) = new play.api.mvc.HandlerRef(
    controllers.BoardController.viewBoard(username, boardname), HandlerDef(this, "controllers.BoardController", "viewBoard", Seq(classOf[String], classOf[String]))
 )
@@ -377,7 +377,7 @@ def viewBoard(username:String, boardname:String) = new play.api.mvc.HandlerRef(
 }
                             
 
-// @LINE:25
+// @LINE:24
 // @LINE:20
 // @LINE:17
 // @LINE:16

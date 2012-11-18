@@ -30,14 +30,18 @@ object viewboard extends BaseScalaTemplate[play.api.templates.Html,Format[play.a
 Seq[Any](format.raw/*1.40*/("""
 """),_display_(Seq[Any](/*2.2*/main(Html("RuPin"))/*2.21*/ {_display_(Seq[Any](format.raw/*2.23*/("""
 
- """),_display_(Seq[Any](/*4.3*/stuff/*4.8*/.getName())),format.raw/*4.18*/("""
+ <h2>"""),_display_(Seq[Any](/*4.7*/stuff/*4.12*/.getName())),format.raw/*4.22*/("""</h2>
 
 """),_display_(Seq[Any](/*6.2*/for( pin <- stuff.getPins() ) yield /*6.31*/ {_display_(Seq[Any](format.raw/*6.33*/("""
-    """),_display_(Seq[Any](/*7.6*/pin/*7.9*/.toString())),format.raw/*7.20*/("""
-""")))})),format.raw/*8.2*/("""
-<p>
-      This is a test!
-</p>
+    <div class="pin">
+        <a href=""""),_display_(Seq[Any](/*8.19*/pin/*8.22*/.getLink())),format.raw/*8.32*/("""">
+        <img src=""""),_display_(Seq[Any](/*9.20*/pin/*9.23*/.getImage())),format.raw/*9.34*/("""" alt="Pin image"/>
+        </a>
+        <p>Pinned by """),_display_(Seq[Any](/*11.23*/pin/*11.26*/.getBoard().getCreator())),format.raw/*11.50*/("""</p>
+        <div class="desc">"""),_display_(Seq[Any](/*12.28*/pin/*12.31*/.getDescription())),format.raw/*12.48*/("""</div>
+    </div>
+
+""")))})),format.raw/*15.2*/("""
     """)))})))}
     }
     
@@ -50,11 +54,11 @@ Seq[Any](format.raw/*1.40*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Nov 17 18:48:54 GMT 2012
+                    DATE: Sun Nov 18 18:37:36 GMT 2012
                     SOURCE: /home/haukur/skil4_honn/RuPin/app/views/board/viewboard.scala.html
-                    HASH: f70cda8eef0a41c55487d96da0158a89a1673e09
-                    MATRIX: 788->1|903->39|939->41|966->60|1005->62|1043->66|1055->71|1086->81|1123->84|1167->113|1206->115|1246->121|1256->124|1288->135|1320->137
-                    LINES: 27->1|30->1|31->2|31->2|31->2|33->4|33->4|33->4|35->6|35->6|35->6|36->7|36->7|36->7|37->8
+                    HASH: d4f937d25d394ca3e12b9dd524886cabc1b5795a
+                    MATRIX: 788->1|903->39|939->41|966->60|1005->62|1047->70|1060->75|1091->85|1133->93|1177->122|1216->124|1292->165|1303->168|1334->178|1391->200|1402->203|1434->214|1525->269|1537->272|1583->296|1651->328|1663->331|1702->348|1753->368
+                    LINES: 27->1|30->1|31->2|31->2|31->2|33->4|33->4|33->4|35->6|35->6|35->6|37->8|37->8|37->8|38->9|38->9|38->9|40->11|40->11|40->11|41->12|41->12|41->12|44->15
                     -- GENERATED --
                 */
             

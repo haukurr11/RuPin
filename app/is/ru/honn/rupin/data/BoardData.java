@@ -32,8 +32,8 @@ public class BoardData extends RuData implements BoardDataGateway
   {
     JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
     Board board = (Board)jdbcTemplate.queryForObject(
-        "select * from ru_boards where username=? and boardname=?",
-        new BoardRowMapper(), username, boardname);
+        "select * from ru_boards where username='" + username + "' and boardname='" + boardname + "'",
+        new BoardRowMapper() );
     return board;
   }
 

@@ -13,6 +13,7 @@ public class BoardController extends RuPinController{
   public static Result viewBoard(String username,String boardname)
   {
       Board board = pinService.getBoard(username, boardname);
+      board.setCreator(userService.getUser(username));
       return ok(viewboard.render(board));
   }
 }

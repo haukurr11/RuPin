@@ -40,7 +40,13 @@ public class PinServiceData implements PinService
   public Board getBoard(String username, String boardname)
   {
     Board board = boardDataGateway.getBoard(username, boardname);
-    board.setPins(pinDataGateway.getPinsOnBoard(username,boardname));
+    List<Pin> pins = getPinsOnBoard(username, boardname);
+    for(Pin pin: pins)
+    {
+        pin.setBoard(board);
+        pin.setCreator(board.getCreator());
+    }
+    board.setPins(pins);
     return board;
   }
 
@@ -80,17 +86,6 @@ public class PinServiceData implements PinService
     return pin;
   }
 
-  @Override
-  public List<Pin> getPinsOnBoard(String username, String boardname)
-  {
-    List<Pin> pins = pinDataGateway.getPinsOnBoard(username, boardname);
-    for(Pin pin : pins)
-    {
-        pin.setCreator(userDataGateway.getUserByUsername(username));
-        pin.setBoard(getBoard(username,boardname));
-    }
-    return pins;
-  }
 
     @Override
     public List<Board> getFollowedBoards(String username) {
@@ -100,5 +95,10 @@ public class PinServiceData implements PinService
             boards.addAll(getBoards(user.getUsername()));
         return boards;
     }
+  @Override
+  public List<Pin> getPinsOnBoard(String username, String boardname) {
+      return pinDataGateway.getPinsOnBoard(username, boardname);
+  }
+
 
 }

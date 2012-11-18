@@ -1,6 +1,7 @@
 package controllers;
 
 import is.ru.honn.rupin.data.UserDataGateway;
+import is.ru.honn.rupin.domain.Pin;
 import is.ru.honn.rupin.domain.User;
 import is.ru.honn.rupin.domain.UserRegistration;
 import play.data.Form;
@@ -14,6 +15,7 @@ public class SignUp extends RuPinController
 
   public static Result blank()
   {
+      Pin pin = new Pin();
     return ok(form.render(signupForm));
   }
 

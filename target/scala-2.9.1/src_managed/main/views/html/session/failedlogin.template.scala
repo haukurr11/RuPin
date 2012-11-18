@@ -42,7 +42,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(Html("Login failed!"), nav = "login")/*1
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Nov 16 06:05:02 GMT 2012
+                    DATE: Sun Nov 18 18:23:19 GMT 2012
                     SOURCE: /home/haukur/skil4_honn/RuPin/app/views/session/failedlogin.scala.html
                     HASH: 5028f665fc39094587e89ed62c53efb6f684041f
                     MATRIX: 842->1|892->43|931->45|982->61|996->67|1031->81

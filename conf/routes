@@ -19,7 +19,6 @@ POST /login controllers.Session.authenticate()
 #logout
 GET /logout controllers.Session.logout()
 
-
 #viewboard
 GET /board/viewboard/:username/:boardname controllers.BoardController.viewBoard(username,boardname)
 POST /login controllers.Session.authenticate()

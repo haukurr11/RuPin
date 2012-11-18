@@ -46,7 +46,7 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Nov 16 06:05:02 GMT 2012
+                    DATE: Sun Nov 18 18:23:18 GMT 2012
                     SOURCE: /home/haukur/skil4_honn/RuPin/app/views/index.scala.html
                     HASH: 3417947723540fc94bc59e1c43242537f25abf7f
                     MATRIX: 770->1|877->31|913->33|940->52|979->54|1038->78|1051->83|1096->107
