@@ -1,6 +1,6 @@
-// @SOURCE:C:/Users/RuPin/conf/routes
-// @HASH:5e977c609e87e851364e53121a227a99325662be
-// @DATE:Sun Nov 18 21:18:31 GMT 2012
+// @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
+// @HASH:b4d9f06fd221ab3d6cb850c89f7dcb909a9fa335
+// @DATE:Sun Nov 18 22:53:19 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -12,8 +12,9 @@ import play.libs.F
 import Router.queryString
 
 
+// @LINE:28
 // @LINE:27
-// @LINE:26
+// @LINE:25
 // @LINE:24
 // @LINE:23
 // @LINE:20
@@ -66,22 +67,22 @@ def blank() = {
 }
                             
 
+// @LINE:28
 // @LINE:27
-// @LINE:26
-// @LINE:24
+// @LINE:25
 // @LINE:23
 class ReverseBoardController {
     
 
 
  
-// @LINE:27
+// @LINE:28
 def submitPin(username:String, boardname:String) = {
    Call("POST", "/board/createpin/" + implicitly[PathBindable[String]].unbind("username", username) + "/" + implicitly[PathBindable[String]].unbind("boardname", boardname))
 }
                                                         
  
-// @LINE:24
+// @LINE:25
 def myBoards() = {
    Call("GET", "/board/myboards")
 }
@@ -93,7 +94,7 @@ def viewBoard(username:String, boardname:String) = {
 }
                                                         
  
-// @LINE:26
+// @LINE:27
 def createPin(username:String, boardname:String) = {
    Call("GET", "/board/createpin/" + implicitly[PathBindable[String]].unbind("username", username) + "/" + implicitly[PathBindable[String]].unbind("boardname", boardname))
 }
@@ -135,11 +136,18 @@ def login() = {
 }
                             
 
+// @LINE:24
 // @LINE:6
 class ReverseApplication {
     
 
 
+ 
+// @LINE:24
+def user(username:String) = {
+   Call("GET", "/user/" + implicitly[PathBindable[String]].unbind("username", username))
+}
+                                                        
  
 // @LINE:6
 def index() = {
@@ -155,8 +163,9 @@ def index() = {
                     
 
 
+// @LINE:28
 // @LINE:27
-// @LINE:26
+// @LINE:25
 // @LINE:24
 // @LINE:23
 // @LINE:20
@@ -224,16 +233,16 @@ def blank = JavascriptReverseRoute(
 }
                             
 
+// @LINE:28
 // @LINE:27
-// @LINE:26
-// @LINE:24
+// @LINE:25
 // @LINE:23
 class ReverseBoardController {
     
 
 
  
-// @LINE:27
+// @LINE:28
 def submitPin = JavascriptReverseRoute(
    "controllers.BoardController.submitPin",
    """
@@ -244,7 +253,7 @@ def submitPin = JavascriptReverseRoute(
 )
                                                         
  
-// @LINE:24
+// @LINE:25
 def myBoards = JavascriptReverseRoute(
    "controllers.BoardController.myBoards",
    """
@@ -266,7 +275,7 @@ def viewBoard = JavascriptReverseRoute(
 )
                                                         
  
-// @LINE:26
+// @LINE:27
 def createPin = JavascriptReverseRoute(
    "controllers.BoardController.createPin",
    """
@@ -328,11 +337,23 @@ def login = JavascriptReverseRoute(
 }
                             
 
+// @LINE:24
 // @LINE:6
 class ReverseApplication {
     
 
 
+ 
+// @LINE:24
+def user = JavascriptReverseRoute(
+   "controllers.Application.user",
+   """
+      function(username) {
+      return _wA({method:"GET", url:"/user/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("username", username)})
+      }
+   """
+)
+                                                        
  
 // @LINE:6
 def index = JavascriptReverseRoute(
@@ -353,8 +374,9 @@ def index = JavascriptReverseRoute(
                     
 
 
+// @LINE:28
 // @LINE:27
-// @LINE:26
+// @LINE:25
 // @LINE:24
 // @LINE:23
 // @LINE:20
@@ -407,22 +429,22 @@ def blank() = new play.api.mvc.HandlerRef(
 }
                             
 
+// @LINE:28
 // @LINE:27
-// @LINE:26
-// @LINE:24
+// @LINE:25
 // @LINE:23
 class ReverseBoardController {
     
 
 
  
-// @LINE:27
+// @LINE:28
 def submitPin(username:String, boardname:String) = new play.api.mvc.HandlerRef(
    controllers.BoardController.submitPin(username, boardname), HandlerDef(this, "controllers.BoardController", "submitPin", Seq(classOf[String], classOf[String]))
 )
                               
  
-// @LINE:24
+// @LINE:25
 def myBoards() = new play.api.mvc.HandlerRef(
    controllers.BoardController.myBoards(), HandlerDef(this, "controllers.BoardController", "myBoards", Seq())
 )
@@ -434,7 +456,7 @@ def viewBoard(username:String, boardname:String) = new play.api.mvc.HandlerRef(
 )
                               
  
-// @LINE:26
+// @LINE:27
 def createPin(username:String, boardname:String) = new play.api.mvc.HandlerRef(
    controllers.BoardController.createPin(username, boardname), HandlerDef(this, "controllers.BoardController", "createPin", Seq(classOf[String], classOf[String]))
 )
@@ -476,11 +498,18 @@ def login() = new play.api.mvc.HandlerRef(
 }
                             
 
+// @LINE:24
 // @LINE:6
 class ReverseApplication {
     
 
 
+ 
+// @LINE:24
+def user(username:String) = new play.api.mvc.HandlerRef(
+   controllers.Application.user(username), HandlerDef(this, "controllers.Application", "user", Seq(classOf[String]))
+)
+                              
  
 // @LINE:6
 def index() = new play.api.mvc.HandlerRef(

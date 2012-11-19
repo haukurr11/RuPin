@@ -1,471 +1,21 @@
-2012-11-18 21:25:00,354 - [INFO] - from play in main 
+2012-11-18 23:06:53,602 - [INFO] - from play in main 
 Listening for HTTP on port 9000...
 
-2012-11-18 21:25:13,687 - [ERROR] - from application in New I/O  worker #1 
-
-
-! Internal server error, for request [GET /board/view/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value inputText]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:29:01,326 - [ERROR] - from application in New I/O  worker #1 
-
-
-! Internal server error, for request [GET /board/view/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value signupForm]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:29:53,121 - [INFO] - from play in play-akka.actor.default-dispatcher-3 
+2012-11-18 23:06:59,256 - [INFO] - from play in play-akka.actor.default-dispatcher-2 
 Application started (Dev)
 
-2012-11-18 21:29:58,155 - [ERROR] - from application in play-akka.actor.actions-dispatcher-4 
-
-
-! @6ccijeb27 - Internal server error, for request [GET /board/view/knutur/createpin] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
-	at org.springframework.dao.support.DataAccessUtils.requiredSingleResult(DataAccessUtils.java:71) ~[spring-tx.jar:3.1.0.RELEASE]
-	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:473) ~[spring-jdbc.jar:3.1.0.RELEASE]
-	at is.ru.honn.rupin.data.BoardData.getBoard(BoardData.java:34) ~[classes/:na]
-	at is.ru.honn.rupin.service.PinServiceData.getBoard(PinServiceData.java:45) ~[classes/:na]
-	at controllers.BoardController.viewBoard(BoardController.java:25) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:124) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:124) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 21:30:10,936 - [ERROR] - from application in play-akka.actor.actions-dispatcher-10 
-
-
-! @6ccijeb28 - Internal server error, for request [GET /board/view/knutur/createpin] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
-	at org.springframework.dao.support.DataAccessUtils.requiredSingleResult(DataAccessUtils.java:71) ~[spring-tx.jar:3.1.0.RELEASE]
-	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:473) ~[spring-jdbc.jar:3.1.0.RELEASE]
-	at is.ru.honn.rupin.data.BoardData.getBoard(BoardData.java:34) ~[classes/:na]
-	at is.ru.honn.rupin.service.PinServiceData.getBoard(PinServiceData.java:45) ~[classes/:na]
-	at controllers.BoardController.viewBoard(BoardController.java:25) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:124) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:124) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 21:32:41,114 - [ERROR] - from application in play-akka.actor.actions-dispatcher-10 
-
-
-! @6ccijeb29 - Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NullPointerException: null]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: java.lang.NullPointerException: null
-	at views.html.helper.form$.apply(form.template.scala:44) ~[play_2.9.1.jar:2.0.4]
-	at views.html.board.createpin$.apply(createpin.template.scala:36) ~[classes/:na]
-	at views.html.board.createpin$.render(createpin.template.scala:73) ~[classes/:na]
-	at views.html.board.createpin.render(createpin.template.scala) ~[classes/:na]
-	at controllers.BoardController.createPin(BoardController.java:59) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$19$$anonfun$apply$20.apply(routes_routing.scala:140) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$19$$anonfun$apply$20.apply(routes_routing.scala:140) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 21:33:49,638 - [ERROR] - from application in New I/O  worker #2 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [value BoardCtroller is not a member of object controllers.routes]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:34:03,107 - [ERROR] - from application in New I/O  worker #2 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [missing arguments for method createPin in class ReverseBoardController;
-follow this method with `_' if you want to treat it as a partially applied function]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:34:45,294 - [ERROR] - from application in New I/O  worker #2 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [missing arguments for method createPin in class ReverseBoardController;
-follow this method with `_' if you want to treat it as a partially applied function]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:34:48,323 - [ERROR] - from application in New I/O  worker #2 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [missing arguments for method createPin in class ReverseBoardController;
-follow this method with `_' if you want to treat it as a partially applied function]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:54:09,499 - [ERROR] - from application in New I/O  worker #5 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not enough arguments for method createPin: (username: String, boardname: String)play.api.mvc.Call.
-Unspecified value parameters username, boardname.]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:54:21,194 - [ERROR] - from application in New I/O  worker #5 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not enough arguments for method createPin: (username: String, boardname: String)play.api.mvc.Call.
-Unspecified value parameters username, boardname.]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:54:38,266 - [ERROR] - from application in New I/O  worker #5 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value username]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:58:07,066 - [ERROR] - from application in New I/O  worker #5 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not enough arguments for method createPin: (username: String, boardname: String)play.api.mvc.Call.
-Unspecified value parameters username, boardname.]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 21:58:48,517 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
+2012-11-18 23:11:24,159 - [INFO] - from play in play-akka.actor.default-dispatcher-8 
 Application started (Dev)
 
-2012-11-18 21:59:04,666 - [ERROR] - from application in play-akka.actor.actions-dispatcher-10 
-
-
-! @6ccijeb2a - Internal server error, for request [GET /board/view/knutur/createpin] ->
-
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
-	at org.springframework.dao.support.DataAccessUtils.requiredSingleResult(DataAccessUtils.java:71) ~[spring-tx.jar:3.1.0.RELEASE]
-	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:473) ~[spring-jdbc.jar:3.1.0.RELEASE]
-	at is.ru.honn.rupin.data.BoardData.getBoard(BoardData.java:34) ~[classes/:na]
-	at is.ru.honn.rupin.service.PinServiceData.getBoard(PinServiceData.java:45) ~[classes/:na]
-	at controllers.BoardController.viewBoard(BoardController.java:25) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:124) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$15$$anonfun$apply$16.apply(routes_routing.scala:124) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
-
-2012-11-18 22:01:27,858 - [INFO] - from play in play-akka.actor.default-dispatcher-10 
+2012-11-18 23:12:20,345 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
 Application started (Dev)
 
-2012-11-18 22:08:35,078 - [ERROR] - from application in New I/O  worker #8 
+2012-11-18 23:14:04,769 - [ERROR] - from application in New I/O  worker #5 
 
 
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png&description=MBL.is&image=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value method]
+sbt.PlayExceptions$CompilationException: Compilation error [error: unreachable statement]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
@@ -490,12 +40,12 @@ sbt.PlayExceptions$CompilationException: Compilation error [not found: value met
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
 
-2012-11-18 22:09:04,879 - [ERROR] - from application in New I/O  worker #8 
+2012-11-18 23:14:17,398 - [ERROR] - from application in New I/O  worker #5 
 
 
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png&description=MBL.is&image=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [illegal start of simple expression]
+sbt.PlayExceptions$CompilationException: Compilation error [error: unreachable statement]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
@@ -520,12 +70,12 @@ sbt.PlayExceptions$CompilationException: Compilation error [illegal start of sim
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
 
-2012-11-18 22:09:14,787 - [ERROR] - from application in New I/O  worker #8 
+2012-11-18 23:14:18,223 - [ERROR] - from application in New I/O  worker #9 
 
 
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png&description=MBL.is&image=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value %]
+sbt.PlayExceptions$CompilationException: Compilation error [error: unreachable statement]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
@@ -550,13 +100,12 @@ sbt.PlayExceptions$CompilationException: Compilation error [not found: value %]
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
 
-2012-11-18 22:13:39,984 - [ERROR] - from application in New I/O  worker #8 
+2012-11-18 23:14:48,058 - [ERROR] - from application in New I/O  worker #9 
 
 
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png&description=MBL.is&image=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [missing arguments for method createPin in class ReverseBoardController;
-follow this method with `_' if you want to treat it as a partially applied function]
+sbt.PlayExceptions$CompilationException: Compilation error [error: unreachable statement]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
@@ -581,12 +130,12 @@ follow this method with `_' if you want to treat it as a partially applied funct
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
 
-2012-11-18 22:14:21,557 - [ERROR] - from application in New I/O  worker #8 
+2012-11-18 23:15:01,007 - [ERROR] - from application in New I/O  worker #9 
 
 
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png&description=MBL.is&image=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [unclosed character literal]
+sbt.PlayExceptions$CompilationException: Compilation error [error: unreachable statement]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
 	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
@@ -611,1543 +160,315 @@ sbt.PlayExceptions$CompilationException: Compilation error [unclosed character l
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
 
-2012-11-18 22:14:35,451 - [ERROR] - from application in New I/O  worker #8 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [unclosed character literal]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:14:38,842 - [ERROR] - from application in New I/O  worker #8 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [unclosed character literal]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:14:42,869 - [ERROR] - from application in New I/O  worker #8 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [unclosed character literal]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:14:51,441 - [ERROR] - from application in New I/O  worker #8 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [unclosed character literal]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:14:54,034 - [ERROR] - from application in New I/O  worker #8 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [unclosed character literal]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:14:54,559 - [ERROR] - from application in New I/O  worker #8 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [unclosed character literal]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:14:54,866 - [ERROR] - from application in New I/O  worker #8 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [unclosed character literal]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:14:55,190 - [ERROR] - from application in New I/O  worker #8 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [unclosed character literal]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:24:48,871 - [ERROR] - from application in New I/O  worker #12 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:24:51,558 - [ERROR] - from application in New I/O  worker #12 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:24:51,745 - [ERROR] - from application in New I/O  worker #12 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:24:51,912 - [ERROR] - from application in New I/O  worker #12 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:25:14,146 - [ERROR] - from application in New I/O  worker #12 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:24,316 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:48,654 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:49,945 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:50,089 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:50,260 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:50,409 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:50,534 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:50,716 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:50,867 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:51,022 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:51,185 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:35:51,343 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:36:05,274 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:36:07,087 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:36:07,235 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:36:07,421 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:36:07,557 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:36:07,704 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:38:13,654 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:38:14,205 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:38:14,365 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:38:14,498 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:38:14,634 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:38:14,807 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:38:14,929 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:38:53,854 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [Unmatched bracket]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:466) ~[na:na]
-	at sbt.PlayCommands$$anonfun$53.apply(PlayCommands.scala:442) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.3]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
-
-2012-11-18 22:39:33,815 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [object viewmodels is not a member of package is.ru.honn.rupin]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:40:33,194 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [object Form is not a value]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:41:46,434 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [variable filledForm in class CreatePinModel cannot be accessed in viewmodels.CreatePinModel]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:42:47,406 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [object Form is not a value]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:43:14,118 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [too many arguments for method getFilledForm: ()play.data.Form[is.ru.honn.rupin.domain.Pin]]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:43:15,490 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [too many arguments for method getFilledForm: ()play.data.Form[is.ru.honn.rupin.domain.Pin]]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:43:15,966 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [too many arguments for method getFilledForm: ()play.data.Form[is.ru.honn.rupin.domain.Pin]]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:43:44,023 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [value globalError is not a member of viewmodels.CreatePinModel]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:44:06,870 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [illegal start of simple expression]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:44:48,728 - [ERROR] - from application in New I/O  worker #13 
-
-
-! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [error: method render in class createpin cannot be applied to given types;]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
-
-2012-11-18 22:46:12,119 - [INFO] - from play in play-akka.actor.default-dispatcher-15 
+2012-11-18 23:15:09,541 - [INFO] - from play in play-akka.actor.default-dispatcher-10 
 Application started (Dev)
 
-2012-11-18 22:46:12,277 - [ERROR] - from application in play-akka.actor.actions-dispatcher-10 
+2012-11-18 23:16:40,318 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+Application started (Dev)
+
+2012-11-18 23:18:04,554 - [ERROR] - from application in New I/O  worker #9 
 
 
-! @6ccijeb2b - Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration] ->
 
-play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0]]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:134) [play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:115) [play_2.9.1.jar:2.0.4]
-	at akka.actor.Actor$class.apply(Actor.scala:318) [akka-actor.jar:2.0.2]
-	at play.core.ActionInvoker.apply(Invoker.scala:113) [play_2.9.1.jar:2.0.4]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor.jar:2.0.2]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor.jar:2.0.2]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor.jar:2.0.2]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0.2]
-Caused by: org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
-	at org.springframework.dao.support.DataAccessUtils.requiredSingleResult(DataAccessUtils.java:71) ~[spring-tx.jar:3.1.0.RELEASE]
-	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:473) ~[spring-jdbc.jar:3.1.0.RELEASE]
-	at is.ru.honn.rupin.data.BoardData.getBoard(BoardData.java:34) ~[classes/:na]
-	at is.ru.honn.rupin.service.PinServiceData.getBoard(PinServiceData.java:45) ~[classes/:na]
-	at controllers.BoardController.createPin(BoardController.java:62) ~[classes/:2.0.4]
-	at Routes$$anonfun$routes$1$$anonfun$apply$19$$anonfun$apply$20.apply(routes_routing.scala:140) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$apply$19$$anonfun$apply$20.apply(routes_routing.scala:140) ~[classes/:na]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.invocation(Router.scala:1090) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:33) ~[play_2.9.1.jar:2.0.4]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:74) ~[play_2.9.1.jar:2.0.4]
-	at play.core.Router$HandlerInvoker$$anon$5$$anon$1.apply(Router.scala:1089) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$6.apply(Invoker.scala:126) ~[play_2.9.1.jar:2.0.4]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0.4]
-	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:125) [play_2.9.1.jar:2.0.4]
-	... 11 common frames omitted
+sbt.PlayExceptions$CompilationException: Compilation error [']' expected but '(' found.]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 23:21:32,711 - [INFO] - from play in play-akka.actor.default-dispatcher-15 
+Application started (Dev)
+
+2012-11-18 23:25:35,598 - [ERROR] - from application in New I/O  worker #1 
+
+
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=&description=&image=] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [error: ';' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 23:25:57,149 - [ERROR] - from application in New I/O  worker #1 
+
+
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=&description=&image=] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [error: illegal start of expression]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 23:25:58,525 - [ERROR] - from application in New I/O  worker #1 
+
+
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=&description=&image=] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [error: illegal start of expression]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 23:26:06,098 - [ERROR] - from application in New I/O  worker #1 
+
+
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=&description=&image=] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [error: cannot find symbol]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 23:26:42,775 - [ERROR] - from application in New I/O  worker #1 
+
+
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=&description=&image=] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [error: variable out might not have been initialized]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 23:27:02,179 - [INFO] - from play in play-akka.actor.default-dispatcher-20 
+Application started (Dev)
+
+2012-11-18 23:27:27,947 - [INFO] - from play in play-akka.actor.default-dispatcher-20 
+Application started (Dev)
+
+2012-11-18 23:27:49,001 - [INFO] - from play in play-akka.actor.default-dispatcher-22 
+Application started (Dev)
+
+2012-11-18 23:28:59,503 - [INFO] - from play in play-akka.actor.default-dispatcher-23 
+Application started (Dev)
+
+2012-11-18 23:33:54,599 - [INFO] - from play in play-akka.actor.default-dispatcher-24 
+Application started (Dev)
+
+2012-11-18 23:34:58,590 - [ERROR] - from application in New I/O  worker #6 
+
+
+! Internal server error, for request [GET /assets/images/favicon.png] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [error: illegal escape character]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 23:35:05,045 - [ERROR] - from application in New I/O  worker #6 
+
+
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=http%3A%2F%2Fmbl.is&description=MBL.is&image=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [error: illegal escape character]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 23:35:18,948 - [INFO] - from play in play-akka.actor.default-dispatcher-25 
+Application started (Dev)
+
+2012-11-18 23:39:13,699 - [INFO] - from play in play-akka.actor.default-dispatcher-25 
+Application started (Dev)
+
+2012-11-18 23:41:56,393 - [INFO] - from play in play-akka.actor.default-dispatcher-28 
+Application started (Dev)
+
+2012-11-18 23:42:55,028 - [ERROR] - from application in New I/O  worker #13 
+
+
+! Internal server error, for request [GET /board/createpin/knutur/Inspiration?link=http%3A%2F%2Fmbl.is&description=MBL.is&image=http%3A%2F%2Fwww.mbl.is%2Fimg%2Fhauslogo%2Fmbl.generic.png] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [error: no suitable constructor found for BufferedWriter(String)]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2012-11-18 23:44:45,635 - [INFO] - from play in play-akka.actor.default-dispatcher-29 
+Application started (Dev)
+
+2012-11-18 23:45:46,278 - [INFO] - from play in play-akka.actor.default-dispatcher-30 
+Application started (Dev)
+
+2012-11-19 00:04:39,342 - [INFO] - from play in play-akka.actor.default-dispatcher-31 
+Application started (Dev)
 

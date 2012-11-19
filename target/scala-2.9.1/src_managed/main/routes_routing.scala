@@ -1,6 +1,6 @@
-// @SOURCE:C:/Users/RuPin/conf/routes
-// @HASH:5e977c609e87e851364e53121a227a99325662be
-// @DATE:Sun Nov 18 21:18:31 GMT 2012
+// @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
+// @HASH:b4d9f06fd221ab3d6cb850c89f7dcb909a9fa335
+// @DATE:Sun Nov 18 22:53:19 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -47,17 +47,21 @@ val controllers_BoardController_viewBoard7 = Route("GET", PathPattern(List(Stati
                     
 
 // @LINE:24
-val controllers_BoardController_myBoards8 = Route("GET", PathPattern(List(StaticPart("/board/myboards"))))
+val controllers_Application_user8 = Route("GET", PathPattern(List(StaticPart("/user/"),DynamicPart("username", """[^/]+"""))))
                     
 
-// @LINE:26
-val controllers_BoardController_createPin9 = Route("GET", PathPattern(List(StaticPart("/board/createpin/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
+// @LINE:25
+val controllers_BoardController_myBoards9 = Route("GET", PathPattern(List(StaticPart("/board/myboards"))))
                     
 
 // @LINE:27
-val controllers_BoardController_submitPin10 = Route("POST", PathPattern(List(StaticPart("/board/createpin/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
+val controllers_BoardController_createPin10 = Route("GET", PathPattern(List(StaticPart("/board/createpin/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
                     
-def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/view/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""GET""","""/board/myboards""","""controllers.BoardController.myBoards()"""),("""GET""","""/board/createpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.createPin(username:String, boardname:String)"""),("""POST""","""/board/createpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.submitPin(username:String, boardname:String)"""))
+
+// @LINE:28
+val controllers_BoardController_submitPin11 = Route("POST", PathPattern(List(StaticPart("/board/createpin/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
+                    
+def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/view/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""GET""","""/user/$username<[^/]+>""","""controllers.Application.user(username:String)"""),("""GET""","""/board/myboards""","""controllers.BoardController.myBoards()"""),("""GET""","""/board/createpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.createPin(username:String, boardname:String)"""),("""POST""","""/board/createpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.submitPin(username:String, boardname:String)"""))
              
     
 def routes:PartialFunction[RequestHeader,Handler] = {        
@@ -127,23 +131,31 @@ case controllers_BoardController_viewBoard7(params) => {
                     
 
 // @LINE:24
-case controllers_BoardController_myBoards8(params) => {
+case controllers_Application_user8(params) => {
+   call(params.fromPath[String]("username", None)) { (username) =>
+        invokeHandler(_root_.controllers.Application.user(username), HandlerDef(this, "controllers.Application", "user", Seq(classOf[String])))
+   }
+}
+                    
+
+// @LINE:25
+case controllers_BoardController_myBoards9(params) => {
    call { 
         invokeHandler(_root_.controllers.BoardController.myBoards(), HandlerDef(this, "controllers.BoardController", "myBoards", Nil))
    }
 }
                     
 
-// @LINE:26
-case controllers_BoardController_createPin9(params) => {
+// @LINE:27
+case controllers_BoardController_createPin10(params) => {
    call(params.fromPath[String]("username", None), params.fromPath[String]("boardname", None)) { (username, boardname) =>
         invokeHandler(_root_.controllers.BoardController.createPin(username, boardname), HandlerDef(this, "controllers.BoardController", "createPin", Seq(classOf[String], classOf[String])))
    }
 }
                     
 
-// @LINE:27
-case controllers_BoardController_submitPin10(params) => {
+// @LINE:28
+case controllers_BoardController_submitPin11(params) => {
    call(params.fromPath[String]("username", None), params.fromPath[String]("boardname", None)) { (username, boardname) =>
         invokeHandler(_root_.controllers.BoardController.submitPin(username, boardname), HandlerDef(this, "controllers.BoardController", "submitPin", Seq(classOf[String], classOf[String])))
    }

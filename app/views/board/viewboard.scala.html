@@ -5,7 +5,11 @@
 @if(stuff.getUser().getUsername == stuff.getBoard().getCreator().getUsername()) {
 <a href="createpin" <button>Add Pin</button>
 }
+@request().headers().values().size()
+@request().body().asText()
 
+
+@request().body().asJson()
 @for( pin <- stuff.getBoard().getPins() ) {
     <div class="pin">
         <a href="@pin.getLink()">

@@ -8,7 +8,9 @@ import play.data.Form;
 import play.mvc.Result;
 import viewmodels.CreatePinModel;
 import viewmodels.ViewBoardModel;
-import views.html.board.*;
+import views.html.board.createpin;
+import views.html.board.myboards;
+import views.html.board.viewboard;
 
 import java.util.List;
 
@@ -30,6 +32,7 @@ public class BoardController extends RuPinController{
       vbm.setBoard(board);
       return ok(viewboard.render(vbm));
   }
+
   public static Result myBoards()
   {
       String loggedInUsername = session().get("username");
@@ -41,26 +44,21 @@ public class BoardController extends RuPinController{
   }
 
 
-    public static Result submitPin(String boardname,String username)
+    public static Result submitPin(String boardname,String username) throws BoardNotFoundException
     {
-
-        Form<Pin> filledForm = createPinForm.bindFromRequest();
-        Pin created = filledForm.get();
-        try{
-        pinService.createPin(username,boardname,filledForm.get().getLink(),filledForm.get().getDescription());
-        } catch (BoardNotFoundException b)
-        {
-            b.printStackTrace();
-        }
+    Form<Pin> filledForm = createPinForm.bindFromRequest();
+    Pin created = filledForm.get();
+    pinService.createPin(username,boardname,filledForm.get().getLink(),filledForm.get().getDescription());
     return null;
     }
 
-    public static Result createPin(String boardname,String username)
+    public static Result createPin(String username,String boardname)
     {
         CreatePinModel cpm = new CreatePinModel();
         cpm.setUser(userService.getUser(username));
         cpm.setBoard(pinService.getBoard(username,boardname));
         cpm.setFilledForm(createPinForm);
         return ok(createpin.render(cpm));
+        //return TODO;
     }
 }
