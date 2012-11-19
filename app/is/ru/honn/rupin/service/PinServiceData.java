@@ -39,7 +39,17 @@ public class PinServiceData implements PinService
     this.pinDataGateway = pinDataGateway;
   }
 
-  @Override
+    @Override
+    public void addLike(String username, int pinID) {
+        pinDataGateway.addLike(username, pinID);
+    }
+
+    @Override
+    public List<User> getLikers(int pinID) {
+       return pinDataGateway.getLikers(pinID) ;
+    }
+
+    @Override
   public Board getBoard(String username, String boardname)
   {
     Board board = boardDataGateway.getBoard(username, boardname);
@@ -95,7 +105,7 @@ public class PinServiceData implements PinService
   public Pin createPin(String username, String boardname, String link, String description, String image) throws BoardNotFoundException
   {
     Board board = boardDataGateway.getBoard(username, boardname);
-    Pin pin = new Pin(link, description,image);
+    Pin pin = new Pin(link, description,image,0);
     board.addPin(pin);
     pinDataGateway.add(pin, boardname, username);
     return pin;

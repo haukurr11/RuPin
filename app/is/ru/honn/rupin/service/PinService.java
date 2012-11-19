@@ -5,6 +5,7 @@ import is.ru.honn.rupin.data.PinDataGateway;
 import is.ru.honn.rupin.data.UserDataGateway;
 import is.ru.honn.rupin.domain.Board;
 import is.ru.honn.rupin.domain.Pin;
+import is.ru.honn.rupin.domain.User;
 
 import java.util.List;
 
@@ -24,4 +25,6 @@ public interface PinService
   public void setUserDataGateway(UserDataGateway userDataGateway);
   public void setBoardDataGateway(BoardDataGateway boardDataGateway);
   public void setPinDataGateway(PinDataGateway pinDataGateway);
+  public void addLike(String username, int pinID);
+  public List<User> getLikers(int pinID);
 }

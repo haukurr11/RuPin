@@ -6,17 +6,27 @@ public class Pin extends PinObject
   protected String description;
   protected String image;
 
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    protected int ID;
   protected Board board;
 
   public Pin()
   {
   }
 
-  public Pin(String link, String description, String image)
+  public Pin(String link, String description, String image,int ID)
   {
     this.link = link;
     this.description = description;
     this.image = image;
+    this.ID = ID;
   }
 
   public String getLink()

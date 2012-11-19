@@ -2,9 +2,12 @@ package controllers;
 
 import is.ru.honn.rupin.domain.Board;
 import is.ru.honn.rupin.domain.Pin;
+import is.ru.honn.rupin.domain.User;
 import is.ru.honn.rupin.service.BoardNotFoundException;
 import is.ru.honn.rupin.service.PinService;
+import org.codehaus.jackson.node.ObjectNode;
 import play.data.Form;
+import play.libs.Json;
 import play.mvc.Result;
 import viewmodels.CreatePinModel;
 import viewmodels.ViewBoardModel;
@@ -58,12 +61,18 @@ public class BoardController extends RuPinController{
         }
           return redirect( routes.BoardController.viewBoard(username,boardname) );
     }
-    public Result AddLike(String username, String boardname)
+
+    public Result AddLike(int pinID)
     {
         String loggedInUsername = session().get("username");
         if (loggedInUsername == null)
           return redirect( routes.Session.login()  );
-        return null;
+        pinService.addLike(loggedInUsername,pinID);
+        List<User> likers = pinService.getLikers(pinID);
+        ObjectNode result = Json.newObject();
+        for(User liker: likers)
+            result.put("name",liker.getName());
+        return ok(result);
     }
     public static Result createPin(String username,String boardname)
     {
