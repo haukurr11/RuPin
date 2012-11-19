@@ -110,3 +110,6 @@ sbt.PlayExceptions$CompilationException: Compilation error [value getBoard is no
 2012-11-19 16:59:27,639 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
 Application started (Dev)
 
+2012-11-19 17:10:18,580 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+Application started (Dev)
+
