@@ -8,30 +8,35 @@ import views.html.session.failedlogin;
 import views.html.session.loginform;
 
 
-public class Session extends RuPinController {
+public class Session extends RuPinController
+{
 
-  final static Form<UserAuthentication> loginForm = form(UserAuthentication.class);
+    final static Form<UserAuthentication> loginForm = form(UserAuthentication.class);
 
-   public static Result login() {
+    public static Result login()
+    {
         return ok(
-                loginform.render(form(UserAuthentication.class))
-        );
+                   loginform.render(form(UserAuthentication.class))
+               );
     }
 
-   public static Result authenticate() {
+    public static Result authenticate()
+    {
         Form<UserAuthentication> filledForm = loginForm.bindFromRequest();
         String username = filledForm.get().getUsername();
         String password = filledForm.get().getPassword();
-        User user = userService.login(username,password);
+        User user = userService.login(username, password);
         if( user == null || loginForm.hasErrors() )
             return ok(failedlogin.render());
-        else {
-            session("username", filledForm.get().getUsername());
-            return redirect( routes.Application.index() );
-        }
+        else
+            {
+                session("username", filledForm.get().getUsername());
+                return redirect( routes.Application.index() );
+            }
     }
 
-    public static Result logout() {
+    public static Result logout()
+    {
         session().clear();
         flash("success", "You've been logged out");
         return redirect( routes.Session.login()  );

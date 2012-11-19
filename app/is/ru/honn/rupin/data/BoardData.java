@@ -11,36 +11,36 @@ import java.util.Map;
 
 public class BoardData extends RuData implements BoardDataGateway
 {
-  @Override
-  public int add(Board board, String username)
-  {
-    SimpleJdbcInsert insert =
-        new SimpleJdbcInsert(getDataSource())
-            .withTableName("ru_boards");
-    Map<String, Object> parameters = new HashMap<String, Object>(3);
-    parameters.put("boardname", board.getName());
-    parameters.put("category", board.getCategory());
-    parameters.put("username", username);
-    return insert.execute(parameters);
-  }
+    @Override
+    public int add(Board board, String username)
+    {
+        SimpleJdbcInsert insert =
+            new SimpleJdbcInsert(getDataSource())
+        .withTableName("ru_boards");
+        Map<String, Object> parameters = new HashMap<String, Object>(3);
+        parameters.put("boardname", board.getName());
+        parameters.put("category", board.getCategory());
+        parameters.put("username", username);
+        return insert.execute(parameters);
+    }
 
-  @Override
-  public Board getBoard(String username, String boardname)
-  {
-    JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
-      return (Board)jdbcTemplate.queryForObject(
-          "select * from ru_boards where username='"
-         + username + "' and boardname='" + boardname + "'",
-          new BoardRowMapper() );
-  }
+    @Override
+    public Board getBoard(String username, String boardname)
+    {
+        JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
+        return (Board)jdbcTemplate.queryForObject(
+                   "select * from ru_boards where username='"
+                   + username + "' and boardname='" + boardname + "'",
+                   new BoardRowMapper() );
+    }
 
-  @Override
-  public List<Board> getBoards(String username)
-  {
-    JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
-    List<Board> boards = (List<Board>)jdbcTemplate.query(
-        "select * from ru_boards where username='"
-       + username + "'", new BoardRowMapper());
-    return boards;
-  }
+    @Override
+    public List<Board> getBoards(String username)
+    {
+        JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
+        List<Board> boards = (List<Board>)jdbcTemplate.query(
+                                 "select * from ru_boards where username='"
+                                 + username + "'", new BoardRowMapper());
+        return boards;
+    }
 }

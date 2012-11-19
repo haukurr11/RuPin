@@ -5,13 +5,16 @@ import is.ru.honn.rupin.domain.User;
 
 import java.util.List;
 
-public class IndexModel  {
+public class IndexModel
+{
     private User user;
     private List<Pin> pins;
-    public User getUser() {
+    public User getUser()
+    {
         return user;
     }
-    public void setUser(User user) {
+    public void setUser(User user)
+    {
         this.user = user;
     }
     public List<Pin> getPins()

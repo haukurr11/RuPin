@@ -7,6 +7,6 @@ import play.mvc.Controller;
 
 public class RuPinController extends Controller
 {
-  protected static ApplicationContext ctx = new FileSystemXmlApplicationContext("/conf/ApplicationContext.xml");
-  protected static UserService userService = (UserService)ctx.getBean("userService");
+    protected static ApplicationContext ctx = new FileSystemXmlApplicationContext("/conf/ApplicationContext.xml");
+    protected static UserService userService = (UserService)ctx.getBean("userService");
 }

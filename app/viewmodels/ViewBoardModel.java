@@ -3,23 +3,28 @@ package viewmodels;
 import is.ru.honn.rupin.domain.Board;
 import is.ru.honn.rupin.domain.User;
 
-public class ViewBoardModel {
+public class ViewBoardModel
+{
     private Board board;
     private User user;
 
-    public Board getBoard() {
+    public Board getBoard()
+    {
         return board;
     }
 
-    public void setBoard(Board board) {
+    public void setBoard(Board board)
+    {
         this.board = board;
     }
 
-    public User getUser() {
+    public User getUser()
+    {
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(User user)
+    {
         this.user = user;
     }
 }

@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface BoardDataGateway
 {
-  public int add(Board board, String username);
-  public Board getBoard(String username, String boardname);
-  public List<Board> getBoards(String username);
+    public int add(Board board, String username);
+    public Board getBoard(String username, String boardname);
+    public List<Board> getBoards(String username);
 
 }
 

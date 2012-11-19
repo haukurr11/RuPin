@@ -9,11 +9,11 @@ import java.sql.SQLException;
 
 public class BoardRowMapper implements RowMapper
 {
-  @Override
-  public Object mapRow(ResultSet resultSet, int i) throws SQLException
-  {
-    Board board = new Board(resultSet.getString(1),   // name
-                            resultSet.getString(2));  // category
-    return board;
-  }
+    @Override
+    public Object mapRow(ResultSet resultSet, int i) throws SQLException
+    {
+        Board board = new Board(resultSet.getString(1),   // name
+                                resultSet.getString(2));  // category
+        return board;
+    }
 }
