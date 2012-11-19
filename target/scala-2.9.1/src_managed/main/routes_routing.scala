@@ -1,6 +1,6 @@
 // @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
 // @HASH:b78d2f6c916a89607a327e3bd278e5eb7fa0aecc
-// @DATE:Mon Nov 19 05:27:43 GMT 2012
+// @DATE:Mon Nov 19 15:59:22 GMT 2012
 
 import play.core._
 import play.core.Router._

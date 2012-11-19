@@ -4,7 +4,6 @@ import is.ru.honn.rupin.domain.Board;
 import is.ru.honn.rupin.domain.Pin;
 import is.ru.honn.rupin.domain.User;
 import is.ru.honn.rupin.service.PinService;
-import is.ru.honn.rupin.service.UserService;
 import play.mvc.Result;
 import viewmodels.IndexModel;
 import views.html.index;
@@ -14,8 +13,7 @@ import java.util.List;
 
 public class Application extends RuPinController
 {
-    private static UserService userService = (UserService)ctx.getBean("userService");
-    private static PinService pinService = (PinService)ctx.getBean("pinService");
+private static PinService pinService = (PinService)ctx.getBean("pinService");
 
     public static Result index()
     {

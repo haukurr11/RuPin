@@ -1,49 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$$anonfun$f$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$$anonfun$f$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/main.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/main.template.scala" />
+    <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="Pusha stuffinu">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$11$$anonfun$apply$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5$$anonfun$apply$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$7$$anonfun$apply$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$9$$anonfun$apply$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseAssets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseSession.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseSignUp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseAssets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseSession.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseSignUp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication$$anonfun$index$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets$$anonfun$at$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession$$anonfun$authenticate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession$$anonfun$login$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession$$anonfun$logout$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSignUp$$anonfun$blank$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSignUp$$anonfun$submit$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSignUp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes$javascript.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes$ref.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$$anonfun$f$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$$anonfun$f$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$$anonfun$f$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$$anonfun$f$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/session/failedlogin$$anonfun$f$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/session/failedlogin$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/session/failedlogin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/session/loginform$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/session/loginform$$anonfun$f$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/session/loginform$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/session/loginform.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/form$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/form$$anonfun$f$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/form$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/form.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/summary$$anonfun$f$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/summary$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/signup/summary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_routing.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/board/viewboard.template.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/main.template.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/failedlogin.template.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/loginform.template.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/form.template.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/summary.template.scala" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BoardController.java" afterPath="$PROJECT_DIR$/app/controllers/BoardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/RuPinController.java" afterPath="$PROJECT_DIR$/app/controllers/RuPinController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Session.java" afterPath="$PROJECT_DIR$/app/controllers/Session.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SignUp.java" afterPath="$PROJECT_DIR$/app/controllers/SignUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardDataGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardRowMapper.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardRowMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinDataGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinRowMapper.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinRowMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserRowMapper.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserRowMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/Board.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/Board.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/Pin.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/Pin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/PinObject.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/PinObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/User.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/UserAuthentication.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/UserAuthentication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/UserRegistration.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/UserRegistration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/BoardNotFoundException.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/BoardNotFoundException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserNotFoundException.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserNotFoundException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UsernameExistsException.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UsernameExistsException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/viewmodels/CreatePinModel.java" afterPath="$PROJECT_DIR$/app/viewmodels/CreatePinModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/viewmodels/IndexModel.java" afterPath="$PROJECT_DIR$/app/viewmodels/IndexModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java" afterPath="$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" />
     </list>
     <ignored path="RuPin.iws" />
@@ -102,7 +136,62 @@
     <favorites_list name="RuPin" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="0" selection-start="3338" selection-end="3338" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createpin.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="17" selection-start="502" selection-end="502" vertical-scroll-proportion="-4.3461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewboard.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/board/viewboard.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scala.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="16" selection-start="394" selection-end="394" vertical-scroll-proportion="0.8026756">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuPinController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/RuPinController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -122,7 +211,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/viewmodels/IndexModel.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
         <option value="$PROJECT_DIR$/app/views/board/myboards.scala.html" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
@@ -133,10 +221,11 @@
         <option value="$PROJECT_DIR$/public/javascripts/addlike.js" />
         <option value="$PROJECT_DIR$/app/views/main.scala.html" />
         <option value="$PROJECT_DIR$/app/views/board/viewboard.scala.html" />
-        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/app/views/board/createpin.scala.html" />
         <option value="$PROJECT_DIR$/app/controllers/BoardController.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
+        <option value="$PROJECT_DIR$/app/views/board/createpin.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
       </list>
     </option>
   </component>
@@ -173,22 +262,22 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="RuPin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -208,6 +297,92 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="board" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,7 +742,11 @@
       <created>1353305547737</created>
       <updated>1353305547737</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Pusha stuffinu">
+      <created>1353306127143</created>
+      <updated>1353306127143</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -592,7 +771,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="723" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.4939117" order="8" side_tool="false" content_ui="tabs" />
@@ -602,16 +781,16 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39928058" sideWeight="0.4939117" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.397482" sideWeight="0.12480974" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739726" sideWeight="0.6066667" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2739726" sideWeight="0.39166668" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.4939117" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32666665" sideWeight="0.4939117" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.375" sideWeight="0.47260273" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34166667" sideWeight="0.49695587" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.23595506" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739726" sideWeight="0.38166666" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35166666" sideWeight="0.86986303" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739726" sideWeight="0.6483333" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35166666" sideWeight="0.86986303" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34166667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -713,11 +892,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="17" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="28" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" />
@@ -728,44 +902,14 @@
         <state line="3" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="52" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/board/viewboard.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="17" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="100" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="3338" selection-end="3338" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/RuPinController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Session.java">
@@ -785,14 +929,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/viewmodels/IndexModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.034965035">
+        <state line="7" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.034965035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/ApplicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.88328075" />
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/RuPinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="3338" selection-end="3338" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="502" selection-end="502" vertical-scroll-proportion="-4.3461537">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/app/views/board/viewboard.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="394" selection-end="394" vertical-scroll-proportion="0.8026756">
           <folding />
         </state>
       </provider>
