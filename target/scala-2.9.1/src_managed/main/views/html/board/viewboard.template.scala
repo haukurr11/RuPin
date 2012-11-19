@@ -24,48 +24,52 @@ import views.html._
 object viewboard extends BaseScalaTemplate[play.api.templates.Html,Format[play.api.templates.Html]](play.api.templates.HtmlFormat) with play.api.templates.Template1[viewmodels.ViewBoardModel,play.api.templates.Html] {
 
     /**/
-    def apply/*1.2*/(stuff: viewmodels.ViewBoardModel):play.api.templates.Html = {
+    def apply/*1.2*/(vbm: viewmodels.ViewBoardModel):play.api.templates.Html = {
         _display_ {
 
-Seq[Any](format.raw/*1.36*/("""
+Seq[Any](format.raw/*1.34*/("""
 """),_display_(Seq[Any](/*2.2*/main(Html("RuPin"))/*2.21*/ {_display_(Seq[Any](format.raw/*2.23*/("""
 
-<h2>"""),_display_(Seq[Any](/*4.6*/stuff/*4.11*/.getBoard().getName())),format.raw/*4.32*/("""</h2>
-"""),_display_(Seq[Any](/*5.2*/if(stuff.getUser().getUsername == stuff.getBoard().getCreator().getUsername())/*5.80*/ {_display_(Seq[Any](format.raw/*5.82*/("""
+<h2>"""),_display_(Seq[Any](/*4.6*/vbm/*4.9*/.getBoard().getName())),format.raw/*4.30*/("""</h2>
+"""),_display_(Seq[Any](/*5.2*/if(vbm.getUser().getUsername == vbm.getBoard().getCreator().getUsername())/*5.76*/ {_display_(Seq[Any](format.raw/*5.78*/("""
 <input type="button" id="addpin" class="btn primary" value="Add Pin"
- action="http://mbl.is"
- onClick="window.location.href='../../createpin/"""),_display_(Seq[Any](/*8.50*/stuff/*8.55*/.getBoard().getCreator().getUsername())),format.raw/*8.93*/("""/"""),_display_(Seq[Any](/*8.95*/stuff/*8.100*/.getBoard().getName())),format.raw/*8.121*/("""'">
-""")))})),format.raw/*9.2*/("""
+ onClick="window.location.href='../../createpin/"""),_display_(Seq[Any](/*7.50*/vbm/*7.53*/.getBoard().getCreator().getUsername())),format.raw/*7.91*/("""/"""),_display_(Seq[Any](/*7.93*/vbm/*7.96*/.getBoard().getName())),format.raw/*7.117*/("""'">
+""")))})),format.raw/*8.2*/("""
 
-"""),_display_(Seq[Any](/*11.2*/for( pin <- stuff.getBoard().getPins() ) yield /*11.42*/ {_display_(Seq[Any](format.raw/*11.44*/("""
+"""),_display_(Seq[Any](/*10.2*/for( pin <- vbm.getBoard().getPins() ) yield /*10.40*/ {_display_(Seq[Any](format.raw/*10.42*/("""
     <div class="pin">
-        <a href=""""),_display_(Seq[Any](/*13.19*/pin/*13.22*/.getLink())),format.raw/*13.32*/("""">
-        <img src=""""),_display_(Seq[Any](/*14.20*/pin/*14.23*/.getImage())),format.raw/*14.34*/("""" alt="Pin image"/>
+        <a href=""""),_display_(Seq[Any](/*12.19*/pin/*12.22*/.getLink())),format.raw/*12.32*/("""">
+        <img src=""""),_display_(Seq[Any](/*13.20*/pin/*13.23*/.getImage())),format.raw/*13.34*/("""" alt="Pin image"/>
         </a>
-        <p>Pinned by <a href="/user/"""),_display_(Seq[Any](/*16.38*/pin/*16.41*/.getBoard().getCreator().getUsername())),format.raw/*16.79*/("""">"""),_display_(Seq[Any](/*16.82*/pin/*16.85*/.getBoard.getCreator().getName())),format.raw/*16.117*/("""</a></p>
-        <p>On board <a href=""""),_display_(Seq[Any](/*17.31*/routes/*17.37*/.BoardController.viewBoard(pin.getBoard().getCreator().getUsername(),
-        pin.getBoard().getName()))),format.raw/*18.34*/("""">"""),_display_(Seq[Any](/*18.37*/pin/*18.40*/.getBoard().getName())),format.raw/*18.61*/("""</a></p>
-        <div class="desc">"""),_display_(Seq[Any](/*19.28*/pin/*19.31*/.getDescription())),format.raw/*19.48*/("""</div>
-        <div class="desc">Category: """),_display_(Seq[Any](/*20.38*/pin/*20.41*/.getBoard().getCategory())),format.raw/*20.66*/("""</div>
+        <p>Pinned by <a href="/user/"""),_display_(Seq[Any](/*15.38*/pin/*15.41*/.getBoard().getCreator().getUsername())),format.raw/*15.79*/("""">"""),_display_(Seq[Any](/*15.82*/pin/*15.85*/.getBoard.getCreator().getName())),format.raw/*15.117*/("""</a></p>
+        <p>On board <a href=""""),_display_(Seq[Any](/*16.31*/routes/*16.37*/.BoardController.viewBoard(pin.getBoard().getCreator().getUsername(),
+        pin.getBoard().getName()))),format.raw/*17.34*/("""">"""),_display_(Seq[Any](/*17.37*/pin/*17.40*/.getBoard().getName())),format.raw/*17.61*/("""</a></p>
+        <div class="desc">"""),_display_(Seq[Any](/*18.28*/pin/*18.31*/.getDescription())),format.raw/*18.48*/("""</div>
+        <div class="desc">Category: """),_display_(Seq[Any](/*19.38*/pin/*19.41*/.getBoard().getCategory())),format.raw/*19.66*/("""</div>
+        <div id="likes"""),_display_(Seq[Any](/*20.24*/pin/*20.27*/.getID)),format.raw/*20.33*/("""" >
+        <button class="btn primary" onclick="addLike("""),_display_(Seq[Any](/*21.55*/pin/*21.58*/.getID)),format.raw/*21.64*/(""")">Like</button>
+            </div>
     </div>
-   """)))})),format.raw/*22.5*/("""
-""")))})))}
+   """)))})),format.raw/*24.5*/("""
+""")))})),format.raw/*25.2*/("""
+
+"""))}
     }
     
-    def render(stuff:viewmodels.ViewBoardModel) = apply(stuff)
+    def render(vbm:viewmodels.ViewBoardModel) = apply(vbm)
     
-    def f:((viewmodels.ViewBoardModel) => play.api.templates.Html) = (stuff) => apply(stuff)
+    def f:((viewmodels.ViewBoardModel) => play.api.templates.Html) = (vbm) => apply(vbm)
     
     def ref = this
 
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Nov 19 02:17:38 GMT 2012
+                    DATE: Mon Nov 19 06:05:33 GMT 2012
                     SOURCE: /home/haukur/skil4_honn/RuPin/app/views/board/viewboard.scala.html
-                    HASH: 1d06123fcf05dd6801906c4e5269f44bd4870caa
-                    MATRIX: 784->1|895->35|931->37|958->56|997->58|1038->65|1051->70|1093->91|1134->98|1220->176|1259->178|1437->321|1450->326|1509->364|1546->366|1560->371|1603->392|1638->397|1676->400|1732->440|1772->442|1849->483|1861->486|1893->496|1951->518|1963->521|1996->532|2102->602|2114->605|2174->643|2213->646|2225->649|2280->681|2355->720|2370->726|2495->829|2534->832|2546->835|2589->856|2661->892|2673->895|2712->912|2792->956|2804->959|2851->984|2904->1006
-                    LINES: 27->1|30->1|31->2|31->2|31->2|33->4|33->4|33->4|34->5|34->5|34->5|37->8|37->8|37->8|37->8|37->8|37->8|38->9|40->11|40->11|40->11|42->13|42->13|42->13|43->14|43->14|43->14|45->16|45->16|45->16|45->16|45->16|45->16|46->17|46->17|47->18|47->18|47->18|47->18|48->19|48->19|48->19|49->20|49->20|49->20|51->22
+                    HASH: fb9905b963e59acddd1bb3e950a527b75f47193e
+                    MATRIX: 784->1|893->33|929->35|956->54|995->56|1036->63|1046->66|1088->87|1129->94|1211->168|1250->170|1404->289|1415->292|1474->330|1511->332|1522->335|1565->356|1600->361|1638->364|1692->402|1732->404|1809->445|1821->448|1853->458|1911->480|1923->483|1956->494|2062->564|2074->567|2134->605|2173->608|2185->611|2240->643|2315->682|2330->688|2455->791|2494->794|2506->797|2549->818|2621->854|2633->857|2672->874|2752->918|2764->921|2811->946|2877->976|2889->979|2917->985|3011->1043|3023->1046|3051->1052|3133->1103|3166->1105
+                    LINES: 27->1|30->1|31->2|31->2|31->2|33->4|33->4|33->4|34->5|34->5|34->5|36->7|36->7|36->7|36->7|36->7|36->7|37->8|39->10|39->10|39->10|41->12|41->12|41->12|42->13|42->13|42->13|44->15|44->15|44->15|44->15|44->15|44->15|45->16|45->16|46->17|46->17|46->17|46->17|47->18|47->18|47->18|48->19|48->19|48->19|49->20|49->20|49->20|50->21|50->21|50->21|53->24|54->25
                     -- GENERATED --
                 */
             

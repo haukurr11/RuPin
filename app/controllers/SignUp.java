@@ -1,9 +1,8 @@
 package controllers;
 
-import is.ru.honn.rupin.data.UserDataGateway;
-import is.ru.honn.rupin.domain.Pin;
 import is.ru.honn.rupin.domain.User;
 import is.ru.honn.rupin.domain.UserRegistration;
+import is.ru.honn.rupin.service.UsernameExistsException;
 import play.data.Form;
 import play.mvc.Result;
 import views.html.signup.form;
@@ -15,7 +14,6 @@ public class SignUp extends RuPinController
 
   public static Result blank()
   {
-      Pin pin = new Pin();
     return ok(form.render(signupForm));
   }
 
@@ -43,13 +41,13 @@ public class SignUp extends RuPinController
     else
     {
       User created = filledForm.get();
-
-      UserDataGateway userDataGateway = (UserDataGateway)ctx.getBean("userDataGateway");
-      userDataGateway.add((User)created);
-
+        try {
+            userService.signup(created);
+        } catch (UsernameExistsException e) {
+            e.printStackTrace();
+        }
       return ok(summary.render(created));
     }
-
   }
 }
 

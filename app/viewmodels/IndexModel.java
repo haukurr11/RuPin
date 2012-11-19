@@ -6,8 +6,8 @@ import is.ru.honn.rupin.domain.User;
 import java.util.List;
 
 public class IndexModel  {
-    protected User user;
-    public List<Pin> list;
+    private User user;
+    private List<Pin> pins;
     public User getUser() {
         return user;
     }
@@ -16,7 +16,11 @@ public class IndexModel  {
     }
     public List<Pin> getPins()
     {
-        return list;
+        return pins;
     }
 
+    public void setPins(List<Pin> pins)
+    {
+        this.pins = pins;
+    }
 }

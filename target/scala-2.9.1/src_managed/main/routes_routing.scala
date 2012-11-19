@@ -1,6 +1,6 @@
 // @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:4a2d2ca008ed9d2bc3004d32365b5f021606e3e9
-// @DATE:Mon Nov 19 00:49:51 GMT 2012
+// @HASH:b78d2f6c916a89607a327e3bd278e5eb7fa0aecc
+// @DATE:Mon Nov 19 05:27:43 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -61,7 +61,11 @@ val controllers_BoardController_createPin10 = Route("GET", PathPattern(List(Stat
 // @LINE:28
 val controllers_BoardController_submitPin11 = Route("POST", PathPattern(List(StaticPart("/board/submitpin/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
                     
-def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/view/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""GET""","""/user/$username<[^/]+>""","""controllers.Application.user(username:String)"""),("""GET""","""/board/myboards""","""controllers.BoardController.myBoards()"""),("""GET""","""/board/createpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.createPin(username:String, boardname:String)"""),("""POST""","""/board/submitpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.submitPin(username:String, boardname:String)"""))
+
+// @LINE:30
+val controllers_BoardController_AddLike12 = Route("GET", PathPattern(List(StaticPart("/board/addlike/"),DynamicPart("pinID", """[^/]+"""))))
+                    
+def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/view/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""GET""","""/user/$username<[^/]+>""","""controllers.Application.user(username:String)"""),("""GET""","""/board/myboards""","""controllers.BoardController.myBoards()"""),("""GET""","""/board/createpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.createPin(username:String, boardname:String)"""),("""POST""","""/board/submitpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.submitPin(username:String, boardname:String)"""),("""GET""","""/board/addlike/$pinID<[^/]+>""","""controllers.BoardController.AddLike(pinID:String)"""))
              
     
 def routes:PartialFunction[RequestHeader,Handler] = {        
@@ -158,6 +162,14 @@ case controllers_BoardController_createPin10(params) => {
 case controllers_BoardController_submitPin11(params) => {
    call(params.fromPath[String]("username", None), params.fromPath[String]("boardname", None)) { (username, boardname) =>
         invokeHandler(_root_.controllers.BoardController.submitPin(username, boardname), HandlerDef(this, "controllers.BoardController", "submitPin", Seq(classOf[String], classOf[String])))
+   }
+}
+                    
+
+// @LINE:30
+case controllers_BoardController_AddLike12(params) => {
+   call(params.fromPath[String]("pinID", None)) { (pinID) =>
+        invokeHandler(_root_.controllers.BoardController.AddLike(pinID), HandlerDef(this, "controllers.BoardController", "AddLike", Seq(classOf[String])))
    }
 }
                     

@@ -1,14 +1,13 @@
-@(stuff: viewmodels.ViewBoardModel)
+@(vbm: viewmodels.ViewBoardModel)
 @main(Html("RuPin")) {
 
-<h2>@stuff.getBoard().getName()</h2>
-@if(stuff.getUser().getUsername == stuff.getBoard().getCreator().getUsername()) {
+<h2>@vbm.getBoard().getName()</h2>
+@if(vbm.getUser().getUsername == vbm.getBoard().getCreator().getUsername()) {
 <input type="button" id="addpin" class="btn primary" value="Add Pin"
- action="http://mbl.is"
- onClick="window.location.href='../../createpin/@stuff.getBoard().getCreator().getUsername()/@stuff.getBoard().getName()'">
+ onClick="window.location.href='../../createpin/@vbm.getBoard().getCreator().getUsername()/@vbm.getBoard().getName()'">
 }
 
-@for( pin <- stuff.getBoard().getPins() ) {
+@for( pin <- vbm.getBoard().getPins() ) {
     <div class="pin">
         <a href="@pin.getLink()">
         <img src="@pin.getImage()" alt="Pin image"/>
@@ -18,6 +17,10 @@
         pin.getBoard().getName())">@pin.getBoard().getName()</a></p>
         <div class="desc">@pin.getDescription()</div>
         <div class="desc">Category: @pin.getBoard().getCategory()</div>
+        <div id="likes@pin.getID" >
+        <button class="btn primary" onclick="addLike(@pin.getID)">Like</button>
+            </div>
     </div>
    }
 }
+

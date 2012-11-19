@@ -27,4 +27,4 @@ GET /board/myboards controllers.BoardController.myBoards()
 GET /board/createpin/:username/:boardname controllers.BoardController.createPin(username,boardname)
 POST  /board/submitpin/:username/:boardname controllers.BoardController.submitPin(username,boardname)
 
-POST /board/addlike/:pinID controllers.BoardController.AddLike(pinID)
+GET /board/addlike/:pinID controllers.BoardController.AddLike(pinID)

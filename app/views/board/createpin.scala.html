@@ -1,23 +1,24 @@
-@(pin: viewmodels.CreatePinModel)
+@(pvm: viewmodels.CreatePinModel)
 @import helper._
 @import helper.twitterBootstrap._
 
 @main(Html("Create pin")){
-@helper.form(action = routes.BoardController.submitPin(pin.getUser().getUsername(),pin.getBoard().getName())) {
+@helper.form(action = routes.BoardController.submitPin(
+             pvm.getUser().getUsername(),pvm.getBoard().getName())) {
 <fieldset>
-    <legend>Create Pin on @pin.getBoard().getName()</legend>
+    <legend>Create Pin on @pvm.getBoard().getName()</legend>
     @inputText(
-    pin.getFilledForm()("link"),
+    pvm.getFilledForm()("link"),
     '_label -> "link",
     '_help -> "Please enter your link."
     )
     @inputText(
-    pin.getFilledForm()("description"),
+    pvm.getFilledForm()("description"),
     '_label -> "description",
     '_help -> "Please enter your description."
     )
     @inputText(
-    pin.getFilledForm()("image"),
+    pvm.getFilledForm()("image"),
     '_label -> "image",
     '_help -> "Please enter your image link."
     )
@@ -25,7 +26,7 @@
 
 <div class="actions">
     <input type="submit" class="btn primary" value="submit">
-    <a href="@routes.Application.index" class="btn">Cancel</a>
+    <a href="@routes.BoardController.viewBoard(pvm.getUser.getUsername(),pvm.getBoard().getName())" class="btn">Cancel</a>
 </div>
 }
 }

@@ -52,7 +52,6 @@ public class UserData extends RuData implements UserDataGateway
     parameters.put("isFollowing", 1);
     parameters.put("username", username);
     parameters.put("following", following);
-    int returnKey;
     try
     {
       insert.execute(parameters);
@@ -74,12 +73,12 @@ public class UserData extends RuData implements UserDataGateway
   {
     Collection<String> users;
     JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
-
     User user;
     try
     {
       user = (User)jdbcTemplate.queryForObject(
-          "select * from ru_users where username = '" + username + "'", new UserRowMapper());
+          "select * from ru_users where username = '"
+         + username + "'", new UserRowMapper());
     }
     catch (EmptyResultDataAccessException erdaex)
     {
@@ -90,23 +89,21 @@ public class UserData extends RuData implements UserDataGateway
 
     public User getUserByID(int id)
     {
-        Collection<String> users;
         JdbcTemplate simpleJdbcTemplate = new JdbcTemplate(getDataSource());
-        User user = (User) simpleJdbcTemplate.queryForObject(
+        return (User) simpleJdbcTemplate.queryForObject(
                 "select * from users where id="+id, new UserRowMapper());
-        return user;
     }
 
    public List<User> getFollowersOf(String username)
   {
-    Collection<String> users;
     JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
 
     List<User> followers;
     try
     {
       followers = (List<User>)jdbcTemplate.query(
-              "select ru_users.* from ru_users,ru_followers where ru_followers.following='" + username + "' and ru_followers.username=ru_users.username"
+              "select ru_users.* from ru_users,ru_followers where ru_followers.following='"
+             + username + "' and ru_followers.username=ru_users.username"
               , new UserRowMapper());
     }
     catch (EmptyResultDataAccessException erdaex)
@@ -119,13 +116,13 @@ public class UserData extends RuData implements UserDataGateway
 
     @Override
     public List<User> getUsersFollowedBy(String username) {
-    Collection<String> users;
     JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
     List<User> followers;
     try
     {
       followers = (List<User>)jdbcTemplate.query(
-              "select ru_users.* from ru_users,ru_followers where ru_followers.username='" + username + "' and ru_followers.following=ru_users.username"
+              "select ru_users.* from ru_users,ru_followers where ru_followers.username='"
+               + username + "' and ru_followers.following=ru_users.username"
               , new UserRowMapper());
     }
     catch (EmptyResultDataAccessException erdaex)

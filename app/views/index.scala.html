@@ -1,7 +1,9 @@
-@(stuff: viewmodels.IndexModel)
+@(im: viewmodels.IndexModel)
 @main(Html("RuPin")) {
-    <h2>Welcome! @stuff.getUser().getName()</h2>
-@for( pin <- stuff.getPins() ) {
+    <h2>Welcome! @im.getUser().getName()</h2>
+
+
+@for( pin <- im.getPins() ) {
     <div class="pin">
         <a href="@pin.getLink()">
         <img src="@pin.getImage()" alt="Pin image"/>
@@ -11,6 +13,10 @@
         pin.getBoard().getName())">@pin.getBoard().getName()</a></p>
         <div class="desc">@pin.getDescription()</div>
         <div class="desc">Category: @pin.getBoard().getCategory()</div>
+        <div id="likes@pin.getID" >
+        <button class="btn primary" onclick="addLike(@pin.getID)">Like</button>
+            </div>
     </div>
-  }
+   }
 }
+

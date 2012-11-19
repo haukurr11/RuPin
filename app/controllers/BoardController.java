@@ -2,7 +2,6 @@ package controllers;
 
 import is.ru.honn.rupin.domain.Board;
 import is.ru.honn.rupin.domain.Pin;
-import is.ru.honn.rupin.domain.User;
 import is.ru.honn.rupin.service.BoardNotFoundException;
 import is.ru.honn.rupin.service.PinService;
 import org.codehaus.jackson.node.ObjectNode;
@@ -17,9 +16,6 @@ import views.html.board.viewboard;
 
 import java.util.List;
 
-/**
- * Creator: Haukur Rosinkranz
- */
 public class BoardController extends RuPinController{
     protected static PinService pinService = (PinService)ctx.getBean("pinService");
     final static Form<Pin> createPinForm = form(Pin.class);
@@ -62,19 +58,19 @@ public class BoardController extends RuPinController{
           return redirect( routes.BoardController.viewBoard(username,boardname) );
     }
 
-    public Result AddLike(int pinID)
+    public static Result AddLike(String pinID)
     {
+        int NumPinID = Integer.parseInt(pinID);
         String loggedInUsername = session().get("username");
         if (loggedInUsername == null)
           return redirect( routes.Session.login()  );
-        pinService.addLike(loggedInUsername,pinID);
-        List<User> likers = pinService.getLikers(pinID);
+        pinService.addLike(loggedInUsername,NumPinID);
+        int numOfLikes = pinService.getLikers(NumPinID).size();
         ObjectNode result = Json.newObject();
-        for(User liker: likers)
-            result.put("name",liker.getName());
+        result.put("likes",numOfLikes);
         return ok(result);
     }
-    public static Result createPin(String username,String boardname)
+   public static Result createPin(String username,String boardname)
     {
         String loggedInUsername = session().get("username");
         if (loggedInUsername == null || !loggedInUsername.equals((username)))

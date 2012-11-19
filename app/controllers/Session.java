@@ -11,19 +11,14 @@ import views.html.session.loginform;
 public class Session extends RuPinController {
 
   final static Form<UserAuthentication> loginForm = form(UserAuthentication.class);
-    /**
-     * Login page.
-     */
-    public static Result login() {
+
+   public static Result login() {
         return ok(
                 loginform.render(form(UserAuthentication.class))
         );
     }
 
-    /**
-     * Handle login form submission.
-     */
-    public static Result authenticate() {
+   public static Result authenticate() {
         Form<UserAuthentication> filledForm = loginForm.bindFromRequest();
         String username = filledForm.get().getUsername();
         String password = filledForm.get().getPassword();
@@ -36,9 +31,6 @@ public class Session extends RuPinController {
         }
     }
 
-    /**
-     * Logout and clean the session.
-     */
     public static Result logout() {
         session().clear();
         flash("success", "You've been logged out");

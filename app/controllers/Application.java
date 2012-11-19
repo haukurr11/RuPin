@@ -31,7 +31,7 @@ public class Application extends RuPinController
             board.setCreator(userService.getUser(user.getUsername()));
             followedPins.addAll(board.getPins());
         }
-    current.list = followedPins;
+    current.setPins(followedPins);
     return ok(index.render(current));
  }
 public static Result user(String username)

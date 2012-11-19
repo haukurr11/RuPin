@@ -5,12 +5,6 @@ import is.ru.honn.rupin.domain.Pin;
 import is.ru.honn.rupin.domain.User;
 import play.data.Form;
 
-/**
- * Created with IntelliJ IDEA.
- * Creator: Knútur Óli Magnússon
- * Date: 18.11.2012
- * Time: 22:21
- */
 public class CreatePinModel {
     User user;
     Board board;

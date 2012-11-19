@@ -3,6 +3,7 @@ package is.ru.honn.rupin.data;
 import is.ru.honn.rupin.domain.Pin;
 import is.ru.honn.rupin.domain.User;
 import is.ruframework.data.RuData;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 
@@ -35,10 +36,18 @@ public class PinData extends RuData implements PinDataGateway
         new SimpleJdbcInsert(getDataSource())
             .withTableName("ru_likes");
     Map<String, Object> parameters = new HashMap<String, Object>(3);
+
     parameters.put("isActive", 1);
     parameters.put("username", username);
     parameters.put("pinID", pinID);
-    return insert.execute(parameters);
+       try
+    {
+      return insert.execute(parameters);
+    }
+    catch(DataIntegrityViolationException divex)
+    {
+        return -1;
+    }
     }
 
     @Override
@@ -50,12 +59,14 @@ public class PinData extends RuData implements PinDataGateway
     return users;
     }
 
-    @Override
+  @Override
   public List<Pin> getPinsOnBoard(String username, String boardname)
   {
     JdbcTemplate jdbcTemplate = new JdbcTemplate(getDataSource());
     List<Pin> pins = (List<Pin>)jdbcTemplate.query(
-            "select * from ru_pins where username='" + username + "' and boardname='" + boardname + "'", new PinRowMapper());
+            "select * from ru_pins where username='"
+             + username + "' and boardname='" + boardname
+             + "'", new PinRowMapper());
     return pins;
   }
 }

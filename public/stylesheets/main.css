@@ -36,6 +36,7 @@ div.desc
 }
 #addpin
 {
-    float:right;
-    display:tablecell;
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
 }
