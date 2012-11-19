@@ -1,8 +1,6 @@
 @(stuff: viewmodels.IndexModel)
 @main(Html("RuPin")) {
-    
     <h2>Welcome! @stuff.getUser().getName()</h2>
-
 @for( pin <- stuff.getPins() ) {
     <div class="pin">
         <a href="@pin.getLink()">

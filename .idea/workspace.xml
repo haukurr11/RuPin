@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$.class" />
+    <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="Pusha stuffinu">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$$anonfun$f$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BoardController.java" afterPath="$PROJECT_DIR$/app/controllers/BoardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/board/createpin.scala.html" afterPath="$PROJECT_DIR$/app/views/board/createpin.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/board/viewboard.scala.html" afterPath="$PROJECT_DIR$/app/views/board/viewboard.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_routing.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_routing.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/board/viewboard.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/board/viewboard.template.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" />
     </list>
     <ignored path="RuPin.iws" />
@@ -80,49 +67,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="createpin.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.3076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myboards.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/board/myboards.scala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewboard.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/board/viewboard.scala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="-3.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.scala.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="700" selection-end="700" vertical-scroll-proportion="0.93167704">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BoardController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.0">
+            <state line="64" column="19" selection-start="2482" selection-end="2482" vertical-scroll-proportion="0.93333334">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,17 +117,17 @@
         <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
-        <option value="$PROJECT_DIR$/app/controllers/BoardController.java" />
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/views/board/createpin.scala.html" />
         <option value="$PROJECT_DIR$/app/views/board/viewboard.scala.html" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
+        <option value="$PROJECT_DIR$/app/controllers/BoardController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1366" />
+    <option name="width" value="683" />
     <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -227,46 +187,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="board" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -661,7 +581,11 @@
       <created>1353284096857</created>
       <updated>1353284096857</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Pusha stuffinu">
+      <created>1353288955016</created>
+      <updated>1353288955016</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -685,7 +609,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1366" height="723" extended-state="0" />
+    <frame x="0" y="22" width="683" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -704,8 +628,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.23595506" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739726" sideWeight="0.6483333" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35166666" sideWeight="0.86986303" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.57052296" sideWeight="0.63304347" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36695653" sideWeight="0.86986303" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34166667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -807,13 +731,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/viewmodels/CreatePinModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="75" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-tx.jar!/org/springframework/dao/support/DataAccessUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.0">
@@ -886,22 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/board/myboards.scala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -918,8 +819,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="700" selection-end="700" vertical-scroll-proportion="0.93167704">
+        <state line="13" column="9" selection-start="694" selection-end="694" vertical-scroll-proportion="-10.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.1863354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="19" selection-start="2482" selection-end="2482" vertical-scroll-proportion="0.93333334">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

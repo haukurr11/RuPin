@@ -48,9 +48,6 @@ public class BoardController extends RuPinController{
         String loggedInUsername = session().get("username");
         if (loggedInUsername == null || !loggedInUsername.equals((username)))
           return redirect( routes.Session.login()  );
-        System.out.println("username: " + username);
-        System.out.println("boardname: " + boardname);
-        System.out.println("hallo");
         Form<Pin> filledForm = createPinForm.bindFromRequest();
         Pin created = filledForm.get();
         try {
@@ -59,9 +56,15 @@ public class BoardController extends RuPinController{
         } catch (BoardNotFoundException e) {
             e.printStackTrace();
         }
+          return redirect( routes.BoardController.viewBoard(username,boardname) );
+    }
+    public Result AddLike(String username, String boardname)
+    {
+        String loggedInUsername = session().get("username");
+        if (loggedInUsername == null)
+          return redirect( routes.Session.login()  );
         return null;
     }
-
     public static Result createPin(String username,String boardname)
     {
         String loggedInUsername = session().get("username");
