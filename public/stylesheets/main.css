@@ -34,3 +34,8 @@ div.desc
     height: auto;
     box-shadow: 0 2px 4px rgba(34,25,25,0.4)
 }
+#addpin
+{
+    float:right;
+    display:tablecell;
+}

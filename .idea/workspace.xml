@@ -1,59 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="Pusha stuffinu">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$11$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$11$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$13$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5$$anonfun$apply$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$7$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$7$$anonfun$apply$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$9$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$9$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1.class" />
+    <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseAssets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseSession.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseSession.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseSignUp.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseSignUp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseAssets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseSession.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseSession.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseSignUp.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseSignUp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication$$anonfun$index$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication$$anonfun$index$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets$$anonfun$at$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets$$anonfun$at$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession$$anonfun$authenticate$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession$$anonfun$authenticate$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession$$anonfun$login$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession$$anonfun$login$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession$$anonfun$logout$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession$$anonfun$logout$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSession.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSignUp$$anonfun$blank$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSignUp$$anonfun$blank$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSignUp$$anonfun$submit$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSignUp$$anonfun$submit$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSignUp.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseSignUp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$$anonfun$f$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/viewboard$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/failedlogin.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/failedlogin.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/loginform.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/loginform.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/form.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/form.template.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$$anonfun$f$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BoardController.java" afterPath="$PROJECT_DIR$/app/controllers/BoardController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/board/createpin.scala.html" afterPath="$PROJECT_DIR$/app/views/board/createpin.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/board/viewboard.scala.html" afterPath="$PROJECT_DIR$/app/views/board/viewboard.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_routing.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_routing.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/board/viewboard.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/board/viewboard.template.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/main.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/main.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/summary.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/summary.template.scala" />
     </list>
     <ignored path="RuPin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,62 +83,46 @@
       <file leaf-file-name="createpin.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="-0.7692308">
+            <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.3076923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreatePinModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/viewmodels/CreatePinModel.java">
+      <file leaf-file-name="myboards.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/board/myboards.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="75" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="viewboard.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/board/viewboard.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="-3.8461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scala.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="9" selection-start="700" selection-end="700" vertical-scroll-proportion="0.93167704">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="18" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataAccessUtils.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/spring-tx.jar!/org/springframework/dao/support/DataAccessUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcTemplate.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/spring-jdbc.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="248" column="0" selection-start="19539" selection-end="19539" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="73" column="0" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,29 +146,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/SignUp.java" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" />
-        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
         <option value="$PROJECT_DIR$/app/viewmodels/IndexModel.java" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/domain/tester.java" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardData.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
-        <option value="$PROJECT_DIR$/app/views/board/viewboard.scala.html" />
-        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java" />
         <option value="$PROJECT_DIR$/app/viewmodels/CreatePinModel.java" />
-        <option value="$PROJECT_DIR$/app/views/board/createpin.scala.html" />
+        <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
+        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
         <option value="$PROJECT_DIR$/app/controllers/BoardController.java" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/board/createpin.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/board/viewboard.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="66" />
+    <option name="y" value="22" />
     <option name="width" value="1366" />
-    <option name="height" value="679" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -277,8 +229,22 @@
               <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scala-2.9.1" />
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,67 +258,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scala-2.9.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes_managed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala-2.9.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes_managed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala-2.9.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes_managed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -370,7 +280,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuPin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -729,7 +657,11 @@
       <created>1353264099840</created>
       <updated>1353264099840</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Pusha stuffinu">
+      <created>1353284096857</created>
+      <updated>1353284096857</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -753,8 +685,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="66" width="1366" height="679" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1366" height="723" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.4939117" order="8" side_tool="false" content_ui="tabs" />
@@ -772,8 +704,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.23595506" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739726" sideWeight="0.6205036" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3794964" sideWeight="0.86986303" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739726" sideWeight="0.6483333" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35166666" sideWeight="0.86986303" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34166667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -875,41 +807,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/viewmodels/IndexModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/board/viewboard.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/signup/form.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="198" selection-end="205" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/viewmodels/CreatePinModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="75" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
@@ -940,21 +837,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
+        <state line="27" column="22" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
+    <entry file="file://$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/board/createpin.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="-0.7692308">
+        <state line="11" column="3" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.73333335">
+          <folding>
+            <element signature="e#0#3530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="20" selection-start="531" selection-end="531" vertical-scroll-proportion="0.8816568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="67" selection-start="680" selection-end="680" vertical-scroll-proportion="0.7692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/domain/Pin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="46" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.6321839">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="18" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
+        <state line="73" column="0" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/board/myboards.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/board/viewboard.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="-3.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="700" selection-end="700" vertical-scroll-proportion="0.93167704">
           <folding />
         </state>
       </provider>

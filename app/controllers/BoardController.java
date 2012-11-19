@@ -43,22 +43,35 @@ public class BoardController extends RuPinController{
       return ok(myboards.render(boards));
   }
 
-
-    public static Result submitPin(String boardname,String username) throws BoardNotFoundException
+    public static Result submitPin(String username,String boardname)
     {
-    Form<Pin> filledForm = createPinForm.bindFromRequest();
-    Pin created = filledForm.get();
-    pinService.createPin(username,boardname,filledForm.get().getLink(),filledForm.get().getDescription());
-    return null;
+        String loggedInUsername = session().get("username");
+        if (loggedInUsername == null || !loggedInUsername.equals((username)))
+          return redirect( routes.Session.login()  );
+        System.out.println("username: " + username);
+        System.out.println("boardname: " + boardname);
+        System.out.println("hallo");
+        Form<Pin> filledForm = createPinForm.bindFromRequest();
+        Pin created = filledForm.get();
+        try {
+            pinService.createPin(username,boardname,filledForm.get().getLink(),
+                    filledForm.get().getDescription(),filledForm.get().getImage());
+        } catch (BoardNotFoundException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public static Result createPin(String username,String boardname)
     {
+        String loggedInUsername = session().get("username");
+        if (loggedInUsername == null || !loggedInUsername.equals((username)))
+          return redirect( routes.Session.login()  );
+        Board board = pinService.getBoard(username,boardname);
         CreatePinModel cpm = new CreatePinModel();
         cpm.setUser(userService.getUser(username));
         cpm.setBoard(pinService.getBoard(username,boardname));
         cpm.setFilledForm(createPinForm);
         return ok(createpin.render(cpm));
-        //return TODO;
     }
 }

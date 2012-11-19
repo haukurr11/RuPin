@@ -1,6 +1,6 @@
 // @SOURCE:/home/haukur/skil4_honn/RuPin/conf/routes
-// @HASH:b4d9f06fd221ab3d6cb850c89f7dcb909a9fa335
-// @DATE:Sun Nov 18 22:53:19 GMT 2012
+// @HASH:4a2d2ca008ed9d2bc3004d32365b5f021606e3e9
+// @DATE:Mon Nov 19 00:49:51 GMT 2012
 
 import play.core._
 import play.core.Router._
@@ -59,9 +59,9 @@ val controllers_BoardController_createPin10 = Route("GET", PathPattern(List(Stat
                     
 
 // @LINE:28
-val controllers_BoardController_submitPin11 = Route("POST", PathPattern(List(StaticPart("/board/createpin/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
+val controllers_BoardController_submitPin11 = Route("POST", PathPattern(List(StaticPart("/board/submitpin/"),DynamicPart("username", """[^/]+"""),StaticPart("/"),DynamicPart("boardname", """[^/]+"""))))
                     
-def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/view/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""GET""","""/user/$username<[^/]+>""","""controllers.Application.user(username:String)"""),("""GET""","""/board/myboards""","""controllers.BoardController.myBoards()"""),("""GET""","""/board/createpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.createPin(username:String, boardname:String)"""),("""POST""","""/board/createpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.submitPin(username:String, boardname:String)"""))
+def documentation = List(("""GET""","""/""","""controllers.Application.index()"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/signup""","""controllers.SignUp.blank()"""),("""POST""","""/signup""","""controllers.SignUp.submit()"""),("""GET""","""/login""","""controllers.Session.login()"""),("""POST""","""/login""","""controllers.Session.authenticate()"""),("""GET""","""/logout""","""controllers.Session.logout()"""),("""GET""","""/board/view/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.viewBoard(username:String, boardname:String)"""),("""GET""","""/user/$username<[^/]+>""","""controllers.Application.user(username:String)"""),("""GET""","""/board/myboards""","""controllers.BoardController.myBoards()"""),("""GET""","""/board/createpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.createPin(username:String, boardname:String)"""),("""POST""","""/board/submitpin/$username<[^/]+>/$boardname<[^/]+>""","""controllers.BoardController.submitPin(username:String, boardname:String)"""))
              
     
 def routes:PartialFunction[RequestHeader,Handler] = {        

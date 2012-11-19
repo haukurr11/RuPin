@@ -37,17 +37,13 @@ Seq[Any](format.raw/*1.32*/("""
         <a href=""""),_display_(Seq[Any](/*8.19*/pin/*8.22*/.getLink())),format.raw/*8.32*/("""">
         <img src=""""),_display_(Seq[Any](/*9.20*/pin/*9.23*/.getImage())),format.raw/*9.34*/("""" alt="Pin image"/>
         </a>
-        <p>Pinned by """),_display_(Seq[Any](/*11.23*/pin/*11.26*/.getBoard().getCreator().getName())),format.raw/*11.60*/("""</p>
-        <p>On board
-        <a href=""""),_display_(Seq[Any](/*13.19*/routes/*13.25*/.BoardController.viewBoard(
-        pin.getBoard().getCreator().getUsername(),
-        pin.getBoard().getName()))),format.raw/*15.34*/("""">"""),_display_(Seq[Any](/*15.37*/pin/*15.40*/.getBoard().getName())),format.raw/*15.61*/("""
-        </a></p>
-        <p>In category:
-        """),_display_(Seq[Any](/*18.10*/pin/*18.13*/.getBoard().getCategory())),format.raw/*18.38*/("""</p>
-        <div class="desc">"""),_display_(Seq[Any](/*19.28*/pin/*19.31*/.getDescription())),format.raw/*19.48*/("""</div>
+        <p>Pinned by <a href="/user/"""),_display_(Seq[Any](/*11.38*/pin/*11.41*/.getBoard().getCreator().getUsername())),format.raw/*11.79*/("""">"""),_display_(Seq[Any](/*11.82*/pin/*11.85*/.getBoard.getCreator().getName())),format.raw/*11.117*/("""</a></p>
+        <p>On board <a href=""""),_display_(Seq[Any](/*12.31*/routes/*12.37*/.BoardController.viewBoard(pin.getBoard().getCreator().getUsername(),
+        pin.getBoard().getName()))),format.raw/*13.34*/("""">"""),_display_(Seq[Any](/*13.37*/pin/*13.40*/.getBoard().getName())),format.raw/*13.61*/("""</a></p>
+        <div class="desc">"""),_display_(Seq[Any](/*14.28*/pin/*14.31*/.getDescription())),format.raw/*14.48*/("""</div>
+        <div class="desc">Category: """),_display_(Seq[Any](/*15.38*/pin/*15.41*/.getBoard().getCategory())),format.raw/*15.66*/("""</div>
     </div>
-  """)))})),format.raw/*21.4*/("""
+  """)))})),format.raw/*17.4*/("""
 """)))})))}
     }
     
@@ -60,11 +56,11 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Nov 18 22:53:20 GMT 2012
+                    DATE: Mon Nov 19 01:34:56 GMT 2012
                     SOURCE: /home/haukur/skil4_honn/RuPin/app/views/index.scala.html
-                    HASH: cb432a792bc9f480f61983131d97f964855c68f8
-                    MATRIX: 770->1|877->31|913->33|940->52|979->54|1038->78|1051->83|1092->103|1134->111|1178->140|1217->142|1293->183|1304->186|1335->196|1392->218|1403->221|1435->232|1526->287|1538->290|1594->324|1673->367|1688->373|1822->485|1861->488|1873->491|1916->512|2003->563|2015->566|2062->591|2130->623|2142->626|2181->643|2233->664
-                    LINES: 27->1|30->1|31->2|31->2|31->2|33->4|33->4|33->4|35->6|35->6|35->6|37->8|37->8|37->8|38->9|38->9|38->9|40->11|40->11|40->11|42->13|42->13|44->15|44->15|44->15|44->15|47->18|47->18|47->18|48->19|48->19|48->19|50->21
+                    HASH: 96b39bbee0ed56f6a62a6df9bb61ae3507f5e5bb
+                    MATRIX: 770->1|877->31|913->33|940->52|979->54|1038->78|1051->83|1092->103|1134->111|1178->140|1217->142|1293->183|1304->186|1335->196|1392->218|1403->221|1435->232|1541->302|1553->305|1613->343|1652->346|1664->349|1719->381|1794->420|1809->426|1934->529|1973->532|1985->535|2028->556|2100->592|2112->595|2151->612|2231->656|2243->659|2290->684|2342->705
+                    LINES: 27->1|30->1|31->2|31->2|31->2|33->4|33->4|33->4|35->6|35->6|35->6|37->8|37->8|37->8|38->9|38->9|38->9|40->11|40->11|40->11|40->11|40->11|40->11|41->12|41->12|42->13|42->13|42->13|42->13|43->14|43->14|43->14|44->15|44->15|44->15|46->17
                     -- GENERATED --
                 */
             

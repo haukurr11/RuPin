@@ -92,12 +92,12 @@ public class PinServiceData implements PinService
   }
 
   @Override
-  public Pin createPin(String username, String boardname, String link, String description) throws BoardNotFoundException
+  public Pin createPin(String username, String boardname, String link, String description, String image) throws BoardNotFoundException
   {
     Board board = boardDataGateway.getBoard(username, boardname);
-    Pin pin = new Pin(link, description, null);
+    Pin pin = new Pin(link, description,image);
     board.addPin(pin);
-    pinDataGateway.add(pin, username, boardname);
+    pinDataGateway.add(pin, boardname, username);
     return pin;
   }
 

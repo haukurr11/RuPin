@@ -3,9 +3,9 @@
 @import helper.twitterBootstrap._
 
 @main(Html("Create pin")){
-@helper.form(action = routes.BoardController.createPin(pin.getUser().getUsername(),pin.getBoard().getName())) {
+@helper.form(action = routes.BoardController.submitPin(pin.getUser().getUsername(),pin.getBoard().getName())) {
 <fieldset>
-    <legend>Create Pin</legend>
+    <legend>Create Pin on @pin.getBoard().getName()</legend>
     @inputText(
     pin.getFilledForm()("link"),
     '_label -> "link",

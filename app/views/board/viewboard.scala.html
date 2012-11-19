@@ -3,22 +3,21 @@
 
 <h2>@stuff.getBoard().getName()</h2>
 @if(stuff.getUser().getUsername == stuff.getBoard().getCreator().getUsername()) {
-<a href="createpin" <button>Add Pin</button>
+<input type="button" id="addpin" class="btn primary" value="Add Pin"
+ action="http://mbl.is"
+ onClick="window.location.href='../../createpin/@stuff.getBoard().getCreator().getUsername()/@stuff.getBoard().getName()'">
 }
-@request().headers().values().size()
-@request().body().asText()
 
-
-@request().body().asJson()
 @for( pin <- stuff.getBoard().getPins() ) {
     <div class="pin">
         <a href="@pin.getLink()">
         <img src="@pin.getImage()" alt="Pin image"/>
         </a>
-        <p>Pinned by @pin.getBoard().getCreator().getName()</p>
+        <p>Pinned by <a href="/user/@pin.getBoard().getCreator().getUsername()">@pin.getBoard.getCreator().getName()</a></p>
         <p>On board <a href="@routes.BoardController.viewBoard(pin.getBoard().getCreator().getUsername(),
         pin.getBoard().getName())">@pin.getBoard().getName()</a></p>
         <div class="desc">@pin.getDescription()</div>
+        <div class="desc">Category: @pin.getBoard().getCategory()</div>
     </div>
    }
 }
