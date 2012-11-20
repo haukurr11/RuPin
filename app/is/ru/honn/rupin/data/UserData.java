@@ -13,6 +13,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * UserData implements UserDataGateway and
+ * contains user releated functions
+ */
+
 public class UserData extends RuData implements UserDataGateway
 {
     public int add(User user)

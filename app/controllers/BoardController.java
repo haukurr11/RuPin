@@ -1,5 +1,11 @@
 package controllers;
 
+/**
+ * Created with IntelliJ IDEA.
+ * Created by: Haukur Rósinkranz, Knútur Óli Magnússon
+ * 13.11.2012 - 20.11.2012
+ */
+
 import is.ru.honn.rupin.domain.Board;
 import is.ru.honn.rupin.domain.Pin;
 import is.ru.honn.rupin.service.BoardNotFoundException;
@@ -18,6 +24,11 @@ import java.util.List;
 
 public class BoardController extends RuPinController
 {
+    /**
+     * BoardController handles all communication with boards with pins
+     * Contains functions to add pin, add like to pin, viewBoards you created etc
+     *
+     */
     protected static PinService pinService = (PinService)ctx.getBean("pinService");
     final static Form<Pin> createPinForm = form(Pin.class);
     public static Result viewBoard(String username, String boardname)

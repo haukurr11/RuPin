@@ -1,5 +1,11 @@
 package viewmodels;
 
+/**
+ * Created with IntelliJ IDEA.
+ * Created by: Haukur Rósinkranz, Knútur Óli Magnússon
+ * 13.11.2012 - 20.11.2012
+ */
+
 import is.ru.honn.rupin.domain.Board;
 import is.ru.honn.rupin.domain.Pin;
 import is.ru.honn.rupin.domain.User;

@@ -1,5 +1,11 @@
 package is.ru.honn.rupin.data;
 
+/**
+ * Created with IntelliJ IDEA.
+ * Created by: Haukur Rósinkranz, Knútur Óli Magnússon
+ * 13.11.2012 - 20.11.2012
+ */
+
 import is.ru.honn.rupin.domain.Board;
 import is.ruframework.data.RuData;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -8,6 +14,11 @@ import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+/**
+ * BoardData handles the implementation of BoardDataGateway
+ * that maps to the ru_boards table in the database
+ */
 
 public class BoardData extends RuData implements BoardDataGateway
 {

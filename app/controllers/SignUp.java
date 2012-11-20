@@ -1,5 +1,11 @@
 package controllers;
 
+/**
+ * Created with IntelliJ IDEA.
+ * Created by: The teachers
+ * 13.11.2012 - 20.11.2012
+ */
+
 import is.ru.honn.rupin.domain.User;
 import is.ru.honn.rupin.domain.UserRegistration;
 import is.ru.honn.rupin.service.UsernameExistsException;
@@ -7,6 +13,12 @@ import play.data.Form;
 import play.mvc.Result;
 import views.html.signup.form;
 import views.html.signup.summary;
+
+/**
+ * SignUp handles taking data from the Signup form and doing a few error checks
+ * so that the user can be created without problems
+ *
+ */
 
 public class SignUp extends RuPinController
 {

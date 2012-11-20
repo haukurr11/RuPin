@@ -11,6 +11,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * PinData handles adding pin or a like to pin
+ *         getPinsonBoard returns a list of pins of a given board
+ *         getLikes returns the number of users that like a certain pin
+ */
+
 public class PinData extends RuData implements PinDataGateway
 {
     @Override

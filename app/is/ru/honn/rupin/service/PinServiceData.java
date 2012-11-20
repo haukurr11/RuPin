@@ -1,5 +1,9 @@
 package is.ru.honn.rupin.service;
-
+/**
+ * Created with IntelliJ IDEA.
+ * Created by: Haukur Rósinkranz, Knútur Óli Magnússon
+ * 13.11.2012 - 20.11.2012
+ */
 import is.ru.honn.rupin.data.BoardDataGateway;
 import is.ru.honn.rupin.data.PinDataGateway;
 import is.ru.honn.rupin.data.UserDataGateway;

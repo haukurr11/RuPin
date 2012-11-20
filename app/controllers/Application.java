@@ -11,6 +11,7 @@ import views.html.index;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Application extends RuPinController
 {
 private static PinService pinService = (PinService)ctx.getBean("pinService");

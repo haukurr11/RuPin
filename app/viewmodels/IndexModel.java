@@ -5,6 +5,12 @@ import is.ru.honn.rupin.domain.User;
 
 import java.util.List;
 
+/**
+ * Created with IntelliJ IDEA.
+ * Created by: Haukur Rósinkranz, Knútur Óli Magnússon
+ * 13.11.2012 - 20.11.2012
+ */
+
 public class IndexModel
 {
     private User user;
