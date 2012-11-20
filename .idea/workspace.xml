@@ -1,126 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\RuPin\target\scala-2.9.1\classes_managed\controllers\routes$javascript.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RuPin\target\scala-2.9.1\classes_managed\controllers\routes$ref.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RuPin\target\scala-2.9.1\classes_managed\controllers\routes.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/board/viewboard.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/board/viewboard.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/failedlogin.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/failedlogin.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/loginform.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/session/loginform.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/form.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/form.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/summary.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/signup/summary.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cglib_cglib_nodep_2_1_3_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cglib_cglib_nodep_2_1_3_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ch_qos_logback_logback_classic_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ch_qos_logback_logback_classic_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ch_qos_logback_logback_core_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ch_qos_logback_logback_core_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_codahale_jerkson_2_9_1_0_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_codahale_jerkson_2_9_1_0_5_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_github_jsuereth_scala_arm_scala_arm_2_9_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_github_jsuereth_scala_arm_scala_arm_2_9_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_github_scala_incubator_io_scala_io_core_2_9_1_0_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_github_scala_incubator_io_scala_io_core_2_9_1_0_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_github_scala_incubator_io_scala_io_file_2_9_1_0_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_github_scala_incubator_io_scala_io_file_2_9_1_0_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_guava_guava_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_guava_guava_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_h2database_h2_1_3_158.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_h2database_h2_1_3_158.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_jolbox_bonecp_0_7_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_jolbox_bonecp_0_7_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_ning_async_http_client_1_7_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_ning_async_http_client_1_7_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_novocode_junit_interface_0_8_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_novocode_junit_interface_0_8_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_typesafe_akka_akka_actor_2_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_typesafe_akka_akka_actor_2_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_typesafe_akka_akka_slf4j_2_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_typesafe_akka_akka_slf4j_2_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_commons_codec_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_commons_codec_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_commons_codec_1_4_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_commons_codec_1_4_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_collections_commons_collections_3_2_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections_commons_collections_3_2_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_commons_io_2_0_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_commons_io_2_0_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_lang_commons_lang_2_6_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang_commons_lang_2_6_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_commons_logging_1_1_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_commons_logging_1_1_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/io_netty_netty_3_5_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/io_netty_netty_3_5_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_transaction_jta_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_transaction_jta_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_validation_validation_api_1_0_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_validation_validation_api_1_0_0_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jaxen_jaxen_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jaxen_jaxen_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/joda_time_joda_time_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/joda_time_joda_time_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_8_2_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_8_2_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_java_dev_jna_jna_3_4_0_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_java_dev_jna_jna_3_4_0_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_java_dev_jna_platform_3_4_0_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_java_dev_jna_platform_3_4_0_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_sf_ehcache_ehcache_core_2_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_sf_ehcache_ehcache_core_2_5_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_sourceforge_cssparser_cssparser_0_9_5_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_sourceforge_cssparser_cssparser_0_9_5_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_sourceforge_htmlunit_htmlunit_2_9_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_sourceforge_htmlunit_htmlunit_2_9_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_sourceforge_htmlunit_htmlunit_core_js_2_9_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_sourceforge_htmlunit_htmlunit_core_js_2_9_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_sourceforge_nekohtml_nekohtml_1_9_15_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_sourceforge_nekohtml_nekohtml_1_9_15_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/oauth_signpost_signpost_core_1_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/oauth_signpost_signpost_core_1_2_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_commons_commons_exec_1_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_commons_commons_exec_1_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_commons_commons_lang3_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_httpcomponents_httpclient_4_1_2_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_httpcomponents_httpclient_4_1_2_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_httpcomponents_httpcore_4_1_3_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_httpcomponents_httpcore_4_1_3_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_httpcomponents_httpmime_4_1_2_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_httpcomponents_httpmime_4_1_2_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_avaje_ebean_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_avaje_ebean_2_7_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_9_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_9_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_9_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_9_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_easytesting_fest_assert_1_4_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_easytesting_fest_assert_1_4_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_easytesting_fest_util_1_1_6_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_easytesting_fest_util_1_1_6_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fluentlenium_fluentlenium_core_0_5_6_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fluentlenium_fluentlenium_core_0_5_6_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fluentlenium_fluentlenium_festassert_0_5_6_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fluentlenium_fluentlenium_festassert_0_5_6_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_hibernate_hibernate_validator_4_2_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_hibernate_hibernate_validator_4_2_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_javassist_javassist_3_16_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_javassist_javassist_3_16_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_joda_joda_convert_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_joda_joda_convert_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_json_json_20080701_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_json_json_20080701_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_reflections_reflections_0_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_reflections_reflections_0_9_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scala_library_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scala_library_2_9_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scala_tools_scala_stm_2_9_1_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scala_tools_scala_stm_2_9_1_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scala_tools_testing_test_interface_0_5_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scala_tools_testing_test_interface_0_5_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_android_driver_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_android_driver_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_api_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_api_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_chrome_driver_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_chrome_driver_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_firefox_driver_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_firefox_driver_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_htmlunit_driver_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_htmlunit_driver_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_ie_driver_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_ie_driver_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_iphone_driver_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_iphone_driver_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_java_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_java_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_remote_driver_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_remote_driver_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_support_2_16_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_support_2_16_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_slf4j_jcl_over_slf4j_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_slf4j_jcl_over_slf4j_1_6_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_slf4j_jul_to_slf4j_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_slf4j_jul_to_slf4j_1_6_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_slf4j_slf4j_api_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_slf4j_slf4j_api_1_6_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_specs2_specs2_2_9_1_1_9_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_specs2_specs2_2_9_1_1_9_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_specs2_specs2_scalaz_core_2_9_1_6_0_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_specs2_specs2_scalaz_core_2_9_1_6_0_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_springframework_spring_beans_3_0_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_springframework_spring_beans_3_0_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_springframework_spring_context_3_0_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_springframework_spring_context_3_0_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_springframework_spring_core_3_0_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_springframework_spring_core_3_0_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_w3c_css_sac_1_3_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_w3c_css_sac_1_3_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_yaml_snakeyaml_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_yaml_snakeyaml_1_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_anorm_2_9_1_2_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_anorm_2_9_1_2_0_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_play_2_9_1_2_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_play_2_9_1_2_0_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_play_test_2_9_1_2_0_4_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_play_test_2_9_1_2_0_4_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_templates_2_9_1_2_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_templates_2_9_1_2_0_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/scala_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/scala_2_9_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/tyrex_tyrex_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/tyrex_tyrex_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/xalan_serializer_2_7_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/xalan_serializer_2_7_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/xalan_xalan_2_7_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/xalan_xalan_2_7_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/xerces_xercesImpl_2_9_1_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/xerces_xercesImpl_2_9_1_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/xml_apis_xml_apis_1_3_04_test.xml" afterPath="$PROJECT_DIR$/.idea/libraries/xml_apis_xml_apis_1_3_04_test.xml" />
+    <list default="true" id="90938e25-1b1e-488b-ab50-b6e5af102f20" name="Default" comment="Pusha stuffinu">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BoardController.java" afterPath="$PROJECT_DIR$/app/controllers/BoardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/RuPinController.java" afterPath="$PROJECT_DIR$/app/controllers/RuPinController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Session.java" afterPath="$PROJECT_DIR$/app/controllers/Session.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SignUp.java" afterPath="$PROJECT_DIR$/app/controllers/SignUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardDataGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinDataGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" afterPath="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/viewmodels/CreatePinModel.java" afterPath="$PROJECT_DIR$/app/viewmodels/CreatePinModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/viewmodels/IndexModel.java" afterPath="$PROJECT_DIR$/app/viewmodels/IndexModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java" afterPath="$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.scala.html" afterPath="$PROJECT_DIR$/app/views/main.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_routing.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_routing.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/main.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/main.template.scala" />
     </list>
     <ignored path="RuPin.iws" />
@@ -180,82 +65,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PinRowMapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinRowMapper.java">
+      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDataGateway.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java">
+      <file leaf-file-name="BoardController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="50" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreatePinModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/viewmodels/CreatePinModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="1" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewBoardModel.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="232" selection-end="232" vertical-scroll-proportion="0.19976498">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PinDataGateway.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinDataGateway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="60" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="35" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRowMapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserRowMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardDataGateway.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardDataGateway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myboards.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/board/myboards.scala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="83" column="0" selection-start="3338" selection-end="3338" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -264,7 +86,61 @@
       <file leaf-file-name="createpin.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="16" column="17" selection-start="502" selection-end="502" vertical-scroll-proportion="-4.3461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewboard.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/board/viewboard.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="16" selection-start="394" selection-end="394" vertical-scroll-proportion="-9.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginform.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/session/loginform.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Session.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Session.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="64" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scala.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="29" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuPinController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/RuPinController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -289,30 +165,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserServiceData.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/UserService.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinServiceData.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/service/PinService.java" />
-        <option value="$PROJECT_DIR$/app/controllers/BoardController.java" />
-        <option value="$PROJECT_DIR$/app/controllers/RuPinController.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Session.java" />
-        <option value="$PROJECT_DIR$/app/controllers/SignUp.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardData.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardDataGateway.java" />
+        <option value="$PROJECT_DIR$/app/viewmodels/IndexModel.java" />
+        <option value="$PROJECT_DIR$/app/views/board/myboards.scala.html" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java" />
         <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinDataGateway.java" />
-        <option value="$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java" />
         <option value="$PROJECT_DIR$/app/viewmodels/CreatePinModel.java" />
+        <option value="$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Session.java" />
+        <option value="$PROJECT_DIR$/app/controllers/SignUp.java" />
+        <option value="$PROJECT_DIR$/public/javascripts/addlike.js" />
+        <option value="$PROJECT_DIR$/app/views/board/viewboard.scala.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/controllers/BoardController.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
+        <option value="$PROJECT_DIR$/app/views/board/createpin.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="22" />
+    <option name="width" value="1366" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -390,7 +265,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,6 +288,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="signup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,137 +330,13 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viewmodels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rupin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rupin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rupin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="83" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="95" />
     <property name="project.structure.proportion" value="0.13027744" />
@@ -588,6 +347,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/TVWeb/TVWeb/Views/Home" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="99" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1007" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1007" />
@@ -600,8 +360,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -618,7 +378,7 @@
       <recent name="$PROJECT_DIR$/app/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Remote.debug">
+  <component name="RunManager" selected="Application.tester">
     <configuration default="false" name="tester" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -778,17 +538,8 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="debug" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="true" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="9999" />
-      <method />
-    </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.tester" />
-      <item index="1" class="java.lang.String" itemvalue="Remote.debug" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -888,7 +639,63 @@
       <created>1353098727110</created>
       <updated>1353098727110</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Pusha stuffinu">
+      <created>1353098734692</created>
+      <updated>1353098734692</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Pusha stuffinu">
+      <created>1353174697657</created>
+      <updated>1353174697657</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Pusha stuffinu">
+      <created>1353174707885</created>
+      <updated>1353174707885</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Pusha stuffinu">
+      <created>1353178021968</created>
+      <updated>1353178021968</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Pusha stuffinu">
+      <created>1353179604259</created>
+      <updated>1353179604259</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Pusha stuffinu">
+      <created>1353179610283</created>
+      <updated>1353179610283</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Pusha stuffinu">
+      <created>1353264099840</created>
+      <updated>1353264099840</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Pusha stuffinu">
+      <created>1353284096857</created>
+      <updated>1353284096857</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Pusha stuffinu">
+      <created>1353288955016</created>
+      <updated>1353288955016</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Pusha stuffinu">
+      <created>1353290076753</created>
+      <updated>1353290076753</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Pusha stuffinu">
+      <created>1353293141927</created>
+      <updated>1353293141927</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Pusha stuffinu">
+      <created>1353305547737</created>
+      <updated>1353305547737</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Pusha stuffinu">
+      <created>1353306127143</created>
+      <updated>1353306127143</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Pusha stuffinu">
+      <created>1353344438682</created>
+      <updated>1353344438682</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -912,30 +719,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="22" width="1366" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.49695587" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.4939117" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39928058" sideWeight="0.4939117" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36833334" sideWeight="0.4977169" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27549466" sideWeight="0.11333334" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.397482" sideWeight="0.12480974" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2739726" sideWeight="0.39166668" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3426087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.23595506" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32666665" sideWeight="0.4939117" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.375" sideWeight="0.47260273" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34166667" sideWeight="0.49695587" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.23595506" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27510685" sideWeight="0.6328125" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3671875" sideWeight="0.49695587" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739726" sideWeight="0.6483333" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35166666" sideWeight="0.86986303" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34269664" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38166666" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34166667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1034,116 +841,97 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/addlike.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="17" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewmodels/CreatePinModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewmodels/IndexModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.034965035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/ApplicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.88328075" />
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/RuPinController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BoardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="3338" selection-end="3338" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="502" selection-end="502" vertical-scroll-proportion="-4.3461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/board/viewboard.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="394" selection-end="394" vertical-scroll-proportion="-9.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/session/loginform.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Session.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="67" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
+        <state line="32" column="64" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SignUp.java">
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="51" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardRowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/board/myboards.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/board/createpin.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserRowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/BoardDataGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinRowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/PinDataGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="60" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/is/ru/honn/rupin/data/UserDataGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="50" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/viewmodels/CreatePinModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="1" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/viewmodels/ViewBoardModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="232" selection-end="232" vertical-scroll-proportion="0.19976498">
+        <state line="7" column="29" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1157,7 +945,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.14005603" />
               </list>
             </option>
           </splitter-proportions>
@@ -1165,11 +953,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.14005603" />
               </list>
             </option>
           </splitter-proportions>
