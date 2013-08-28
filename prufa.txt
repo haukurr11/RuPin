@@ -1,3 +1,16 @@
 hallo heimur
 prufa2
 ok tékkið þetta núna virkar þetta!
+
+class JonAtli {
+   void init() {
+       sleep(math.infinity);
+   }
+
+   void showup() {
+     //TODO
+     //FUNCTION NOT IMPLEMENTED
+
+   }
+
+}
