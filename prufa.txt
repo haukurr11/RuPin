@@ -1,2 +1,3 @@
 hallo heimur
 prufa2
+ok tékkið þetta núna virkar þetta!
