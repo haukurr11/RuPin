@@ -17,3 +17,4 @@ class JonAtli {
 
 test
 sjáðu aron ég var að adda þessu
+eitt í viðbót
